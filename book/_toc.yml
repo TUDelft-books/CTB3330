@@ -1,48 +1,59 @@
 format: jb-book
 root: intro
-chapters:
-- file: intro_copy
-- file: advanced_structural_mechanics/inhomogeneous_overview.md
-  sections:
-  - file: advanced_structural_mechanics/unsymmetrical_bending.ipynb
-- file: advanced_structural_mechanics/work_and_energy_overview.md
-  sections:
-  - file: advanced_structural_mechanics/Interactive_V.ipynb
-  - file: advanced_structural_mechanics/Example_lecture_6_potential_energy_varying_EA.ipynb
-- file: advanced_structural_mechanics/influence_lines_overview.md
-  sections:
-  - file: advanced_structural_mechanics/influence_line_simple/overview.md
-    sections:
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_Av.ipynb
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_Bv.ipynb
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_M.ipynb
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_V.ipynb
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_w.ipynb
-    - file: advanced_structural_mechanics/influence_line_simple/Interactive_influence_line_simple_phi.ipynb
-  - file: advanced_structural_mechanics/influence_line_cantilever/overview.md
-    sections:
-    - file: advanced_structural_mechanics/influence_line_cantilever/Interactive_influence_line_simple_M.ipynb
-    - file: advanced_structural_mechanics/influence_line_cantilever/Interactive_influence_line_simple_V.ipynb
-    - file: advanced_structural_mechanics/influence_line_cantilever/Interactive_influence_line_simple_w.ipynb
-    - file: advanced_structural_mechanics/influence_line_cantilever/Interactive_influence_line_simple_phi.ipynb
-  - file: advanced_structural_mechanics/influence_line_book/overview.md
-    sections:
-    - file: advanced_structural_mechanics/influence_line_book/Interactive_influence_line_simple_Av.ipynb
-    - file: advanced_structural_mechanics/influence_line_book/Interactive_influence_line_simple_M.ipynb
-    - file: advanced_structural_mechanics/influence_line_book/Interactive_influence_line_simple_V.ipynb
-  - file: advanced_structural_mechanics/influence_line_3sup/overview.md
-    sections:
-    - file: advanced_structural_mechanics/influence_line_3sup/Interactive_influence_line_Av.ipynb
-    - file: advanced_structural_mechanics/influence_line_3sup/Interactive_influence_line_M.ipynb
-    - file: advanced_structural_mechanics/influence_line_3sup/Interactive_influence_line_V.ipynb
-    - file: advanced_structural_mechanics/influence_line_3sup/Demo_class.ipynb
-    - file: advanced_structural_mechanics/influence_line_3sup/Interactive_influence_line_envelope.ipynb
-- file: advanced_structural_mechanics/plasticity_overview.md
-  sections:
-  - file: advanced_structural_mechanics/plasticity1.ipynb
-  - file: advanced_structural_mechanics/plasticity2.ipynb
-  - file: advanced_structural_mechanics/plasticity3.ipynb
-  - file: advanced_structural_mechanics/Example_3_lecture_1_plasticity.ipynb
-  - file: advanced_structural_mechanics/shape_factor.ipynb
-  - file: advanced_structural_mechanics/plastic_hinge.ipynb
-  - file: advanced_structural_mechanics/Example_2_lecture_3_plasticity.ipynb
+
+parts:
+  - caption: Introduction
+    chapters:
+    - file: instructions
+    - file: contact_information
+    - url: https://brightspace.tudelft.nl/d2l/lms/news/main.d2l?ou=680899
+      title: Brightspace announcements 📢
+  - caption: Asymmetrical and inhomogeous cross-sections
+    chapters:
+    - file: crosssection/unsymmetrical_bending.ipynb
+    - file: crosssection/clamped.ipynb
+  - caption: Work and energy methods
+    chapters:
+    - file: work_energy/Interactive_V.ipynb
+    - file: work_energy/Example_lecture_6_potential_energy_varying_EA.ipynb
+  - caption: Influence lines
+    chapters:
+    - file: influence_line/influence_line_simple/overview.md
+      sections:
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_Av.ipynb
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_Bv.ipynb
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_M.ipynb
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_V.ipynb
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_w.ipynb
+      - file: influence_line/influence_line_simple/Interactive_influence_line_simple_phi.ipynb
+    - file: influence_line/influence_line_cantilever/overview.md
+      sections:
+      - file: influence_line/influence_line_cantilever/Interactive_influence_line_simple_M.ipynb
+      - file: influence_line/influence_line_cantilever/Interactive_influence_line_simple_V.ipynb
+      - file: influence_line/influence_line_cantilever/Interactive_influence_line_simple_w.ipynb
+      - file: influence_line/influence_line_cantilever/Interactive_influence_line_simple_phi.ipynb
+    - file: influence_line/influence_line_book/overview.md
+      sections:
+      - file: influence_line/influence_line_book/Interactive_influence_line_simple_Av.ipynb
+      - file: influence_line/influence_line_book/Interactive_influence_line_simple_M.ipynb
+      - file: influence_line/influence_line_book/Interactive_influence_line_simple_V.ipynb
+    - file: influence_line/influence_line_3sup/overview.md
+      sections:
+      - file: influence_line/influence_line_3sup/Interactive_influence_line_Av.ipynb
+      - file: influence_line/influence_line_3sup/Interactive_influence_line_M.ipynb
+      - file: influence_line/influence_line_3sup/Interactive_influence_line_V.ipynb
+      - file: influence_line/influence_line_3sup/Demo_class.ipynb
+      - file: influence_line/influence_line_3sup/Interactive_influence_line_envelope.ipynb
+  - caption: Plasticity
+    chapters:
+    - file: plasticity/plasticity1.ipynb
+    - file: plasticity/plasticity2.ipynb
+    - file: plasticity/plasticity3.ipynb
+    - file: plasticity/Example_3_lecture_1_plasticity.ipynb
+    - file: plasticity/shape_factor.ipynb
+    - file: plasticity/plastic_hinge.ipynb
+    - file: plasticity/Example_2_lecture_3_plasticity.ipynb
+  - caption: Miscellaneous
+    chapters:
+    - file: credits.md
+    - file: changelog.md
