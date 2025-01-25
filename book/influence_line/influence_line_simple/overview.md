@@ -1,4 +1,4 @@
-# Interactive influence line simply supported beam
+# Simply supported beam
 
 The influence lines of the following structure will be investigated
 

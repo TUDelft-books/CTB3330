@@ -49,7 +49,6 @@ parts:
     - file: plasticity/plasticity1.ipynb
     - file: plasticity/plasticity2.ipynb
     - file: plasticity/plasticity3.ipynb
-    - file: plasticity/Example_3_lecture_1_plasticity.ipynb
     - file: plasticity/shape_factor.ipynb
     - file: plasticity/plastic_hinge.ipynb
     - file: plasticity/Example_2_lecture_3_plasticity.ipynb

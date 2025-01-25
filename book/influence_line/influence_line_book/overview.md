@@ -1,4 +1,4 @@
-# Interactive influence line statically indeterminate beam 1
+# Statically indeterminate beam 1
 
 The influence lines of the following structure will be investigated
 

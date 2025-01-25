@@ -1,4 +1,4 @@
-# Interactive influence line cantilever beam
+# Cantilever beam
 
 The influence lines of the following structure will be investigated
 
