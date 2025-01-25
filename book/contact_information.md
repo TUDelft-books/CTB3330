@@ -1,6 +1,6 @@
 # Contact information 💬
 
-This submodule is taught by Tom van Woudenberg and Hans Welleman. Please contact us if you've any questions, feedback or when you've personal circumstances which we should know.
+This course is taught by Tom van Woudenberg and Hans Welleman. Please contact us if you've any questions, feedback or when you've personal circumstances which we should know.
 
 ```{figure} figures/Tom.jpg
 :width: 200px

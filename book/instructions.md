@@ -3,7 +3,7 @@
 This TeachBook combines interactive content on all topics and theory on Work and Energy methods.
 
 ## Interactive features
-This TeachBook includes interactive coding features! Click {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of interactive page to start up a python-kernel in your browser! Any interactions you do here are not stored. You can also download those pages as a notebook to apply the content on your own computer. For the practice exercises this book shows a preview of the notebooks and py-files. These pages allow you to test the functionality. However, please fork and clone the assignment to work on it locally from [GitHub](https://github.com/CIEM5000-2025/practice-assignments). This allows you to edit multiple files simultaneously and save your work.
+This TeachBook includes interactive coding features! Click {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of interactive page to start up a python-kernel in your browser! Any interactions you do here are not stored. You can also download those pages as a notebook to apply the content on your own computer.
 
 ## Spot a mistake?
 If you spot any mistakes, you can click on {octicon}`mark-github;1em` --> {fa}`lightbulb`, login with a GitHub account and report your issue. It'll be solved soon!
