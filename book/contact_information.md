@@ -18,3 +18,6 @@ This course is taught by Tom van Woudenberg and Hans Welleman. Please contact us
 :class: dark-light
 ```
 ## Hans Welleman
+- Room 6.55
+- 015-2784856
+- J.W.Welleman@tudelft.nl
