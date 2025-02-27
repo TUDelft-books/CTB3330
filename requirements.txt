@@ -8,4 +8,4 @@ sphinx-exercise == 1.0.1
 sphinx-named-colors == 1.0.1
 teachbooks-sphinx-tippy == 1.0.6
 
-git+https://github.com/TeachBooks/Sphinx-Thebe
+git+https://github.com/TeachBooks/Sphinx-Thebe #BUMP
