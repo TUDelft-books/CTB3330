@@ -15,6 +15,7 @@ parts:
   - caption: Work and energy methods
     chapters:
     - file: work_energy/example_strain_lecture_2.ipynb
+    - file: work_energy/Example_deflection_midspan.ipynb
     - file: work_energy/Interactive_V.ipynb
     - file: work_energy/Example_lecture_6_potential_energy_varying_EA.ipynb
   - caption: Influence lines
