@@ -18,6 +18,7 @@ parts:
     - file: work_energy/Example_deflection_midspan.ipynb
     - file: work_energy/Interactive_V.ipynb
     - file: work_energy/Example_lecture_6_potential_energy_varying_EA.ipynb
+    - file: work_energy/exercise_pot_energy.ipynb
   - caption: Influence lines
     chapters:
     - file: influence_line/influence_line_simple/overview.md
