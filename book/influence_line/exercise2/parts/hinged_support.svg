@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export hinged_support.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="0.421479in" height="0.197425in"
+		viewBox="0 0 30.3465 14.2146" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {fill:#00cc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape22-1" v:mID="22" v:groupContext="shape" transform="translate(1,-11.7136)">
+			<title>Ligger, 2 pt.22</title>
+			<path d="M0 14.21 L28.35 14.21" class="st1"/>
+		</g>
+		<g id="group18-4" transform="translate(5.25197,-0.375)" v:mID="18" v:groupContext="group">
+			<title>Scharnieroplegging</title>
+			<g id="shape19-5" v:mID="19" v:groupContext="shape" transform="translate(2.83465,-1.77636E-15)">
+				<title>Blad.19</title>
+				<path d="M0 14.21 L14.17 14.21 L7.09 2.88 L0 14.21 Z" class="st2"/>
+			</g>
+			<g id="shape20-7" v:mID="20" v:groupContext="shape" transform="translate(2.83465,28.4291) rotate(180)">
+				<title>Blad.20</title>
+				<path d="M0 14.21 L2.83 14.21" class="st3"/>
+			</g>
+			<g id="shape21-10" v:mID="21" v:groupContext="shape" transform="translate(17.0079,-3.55271E-15)">
+				<title>Blad.21</title>
+				<path d="M0 14.21 L2.83 14.21" class="st3"/>
+			</g>
+		</g>
+		<g id="shape17-13" v:mID="17" v:groupContext="shape" transform="translate(13.0472,-9.5876)">
+			<title>Scharnier</title>
+			<ellipse cx="2.12598" cy="12.0886" rx="2.12598" ry="2.12598" class="st4"/>
+		</g>
+	</g>
+</svg>

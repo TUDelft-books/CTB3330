@@ -1,7 +1,9 @@
 # MOLA exercise
 
-In this exercise, you're going to find influence lines using MOLA. We'll use the following components:
+In this exercise, you're going to find influence lines using MOLA. 
 
+## Components
+We'll use the following components:
 | MOLA    | Model |
 | -------- | ------- |
 | ![](./parts/fix.webp)  | ![](./parts/fixed.svg)|
@@ -11,3 +13,6 @@ In this exercise, you're going to find influence lines using MOLA. We'll use the
 | ![](./parts/beam.webp) | ![](parts/beam.svg)|
 | ![](./parts/stiff.webp) | ![](parts/stiff.svg) |
 | ![](./parts/1rad.webp) | ![](parts/1rad.svg) |
+
+## Simply supported beam
+Let's start with the most basic model.

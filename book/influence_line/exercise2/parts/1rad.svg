@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export 1rad.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="0.810172in" height="0.407834in"
+		viewBox="0 0 58.3324 29.3641" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {marker-end:url(#mrkr1-15);marker-start:url(#mrkr1-13);stroke:#000000;stroke-linecap:butt;stroke-width:1.75}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.54858934169279}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend1">
+			<path d="M 1 -1 L 0 0 L 1 1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr1-13" class="st3" v:arrowType="1" v:arrowSize="0" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(1.8228571428571) "/>
+		</marker>
+		<marker id="mrkr1-15" class="st3" v:arrowType="1" v:arrowSize="0" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(-1.8228571428571,-1.8228571428571) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape52-1" v:mID="52" v:groupContext="shape" transform="translate(1.26448,-4.51134)">
+			<title>Ligger, 2 pt.52</title>
+			<path d="M0 29.36 L28.35 29.36" class="st1"/>
+		</g>
+		<g id="shape53-4" v:mID="53" v:groupContext="shape" transform="translate(4.90192,8.98726) rotate(-57.2958)">
+			<title>Ligger, 2 pt.53</title>
+			<path d="M0 29.36 L28.35 29.36" class="st1"/>
+		</g>
+		<g id="shape59-7" v:mID="59" v:groupContext="shape" transform="translate(69.0283,9.85325) rotate(59.2822) scale(-1,1)">
+			<title>Hoekverdraaiing</title>
+			<path d="M0 29.36 C4.58 26.64 9.49 27.02 13.34 29.36" class="st2"/>
+		</g>
+		<g id="shape61-16" v:mID="61" v:groupContext="shape" transform="translate(23.1731,-12.5315) rotate(-28.0299) scale(-1,1)">
+			<title>Hoekverdraaiing.61</title>
+			<path d="M0 29.36 C7.65 19.01 19.33 19.86 24.4 29.36" class="st2"/>
+		</g>
+		<g id="shape62-23" v:mID="62" v:groupContext="shape" transform="translate(43.7842,-11.3145)">
+			<title>Blad.62</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="25.679" width="14.18" height="7.37008"/>
+			<rect x="0" y="21.994" width="14.1732" height="7.37008" class="st4"/>
+			<text x="4.09" y="29.28" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape64-26" v:mID="64" v:groupContext="shape" transform="translate(0.375,-15.8499)">
+			<title>Blad.64</title>
+			<desc>π-1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="15.0627" cy="23.3515" width="30.13" height="12.0252"/>
+			<rect x="0" y="17.3389" width="30.1254" height="12.0252" class="st4"/>
+			<text x="7.04" y="26.95" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>π-1</text>		</g>
+	</g>
+</svg>
