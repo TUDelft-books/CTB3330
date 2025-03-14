@@ -249,11 +249,11 @@ Show the influence line of the vertical support reaction at B for the statically
 ![](./SO/inf_B.webp)
 ```
 
-```{exercise} Influence line bending moment halfway AB for the statically indeterminate hinged beam
+```{exercise} Influence line bending moment halfway AB for the statically indeterminate hinged beam with stiff part
 :label: is_MAB
 :nonumber: true
 
-Show the influence line for the bending moment halfway AB for the statically indeterminate hinged beam
+Show the influence line for the bending moment halfway AB for the statically indeterminate hinged beam with stiff part
 ```
 
 ```{solution} is_MAB
@@ -264,4 +264,65 @@ Show the influence line for the bending moment halfway AB for the statically ind
 ```
 
 ## Statically indeterminate hinged beam
-Finally, let's consider another statically indeterminate hinged beam
+Finally, let's consider another statically indeterminate hinged beam.
+
+```{figure} ./3sup/structure.svg
+:width: 80%
+:name: is_model
+:align: center
+Statically indeterminate hinged beam
+```
+
+```{exercise} Statically indeterminate beam
+:label: SO
+:nonumber: true
+
+Make the statically indeterminate beam with MOLA
+```
+
+```{solution} SO
+:class: dropdown
+
+![](./3sup/structure.webp)
+```
+
+```{exercise} Influence line vertical support reaction at A for the statically indeterminate beam
+:label: SO_A
+:nonumber: true
+
+Show the influence line of the vertical support reaction at A for the statically indeterminate beam 
+```
+
+```{solution} is_A
+:class: dropdown
+
+![](./3sup/inf_A.webp)
+```
+
+```{exercise} Influence line bending moment at B for the statically indeterminate hinged beam
+:label: SO_MB
+:nonumber: true
+
+Show the influence line for the bending moment at B for the statically indeterminate hinged beam
+```
+
+```{solution} SO_MB
+:class: dropdown
+
+![](./3sup/inf_MB.webp)
+
+```
+
+```{exercise} Influence line bending moment at D for the statically indeterminate hinged beam
+:label: SO_MD
+:nonumber: true
+
+Show the influence line for the bending moment at D for the statically indeterminate hinged beam
+```
+
+```{solution} SO_MD
+:class: dropdown
+
+![](./3sup/inf_MD.webp)
+
+```
