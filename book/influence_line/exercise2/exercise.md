@@ -173,3 +173,42 @@ Show the influence line for the bending moment at B for the statically determina
 
 ```
 
+```{exercise} Influence line displacement in D for the statically determinate hinged beam
+:label: hb_WD
+:nonumber: true
+
+Show the influence line for the displacement in D for the statically determinate hinged beam
+```
+
+```{solution} hb_WD
+:class: dropdown
+
+![](./hinged_SD/inf_WD.webp)
+```
+
+```{exercise} Influence line displacement in S2 for the statically determinate hinged beam
+:label: hb_WS
+:nonumber: true
+
+Show the influence line for the displacement in S2 for the statically determinate hinged beam
+```
+
+```{solution} hb_WS
+:class: dropdown
+
+![](./hinged_SD/inf_WS.webp)
+```
+
+```{exercise} Influence line rotation in B for the statically determinate hinged beam
+:label: hb_phiB
+:nonumber: true
+
+Show the influence line for the rotation in B for the statically determinate hinged beam
+```
+
+```{solution} hb_phiB
+:class: dropdown
+
+![](./hinged_SD/inf_phiB.webp)
+```
+
