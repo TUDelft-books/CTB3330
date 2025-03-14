@@ -48,6 +48,7 @@ parts:
       - file: influence_line/influence_line_3sup/Demo_class.ipynb
       - file: influence_line/influence_line_3sup/Interactive_influence_line_envelope.ipynb
     - file: influence_line/exercise/exercise.ipynb
+    - file: influence_line/exercise2/exercise.md
   - caption: Plasticity
     chapters:
     - file: plasticity/plasticity1.ipynb

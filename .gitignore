@@ -132,4 +132,4 @@ dmypy.json
 _build/
 
 # Other stuff
-*.vsdx
+*.~vsdx
