@@ -1,6 +1,6 @@
 # MOLA exercise
 
-In this exercise, you're going to find influence lines using MOLA. 
+In this exercise, you're going to find influence lines using MOLA. It's meant to give you insight in when these influence lines have straight and/or curved parts. 
 
 ## Components
 We'll use the following components:
@@ -107,3 +107,69 @@ Show the influence line for the rotation halfway the beam
 ![](./simply_supported/inf_phi.webp)
 
 ```
+
+## Statically determinate hinged beam
+Let's increase complexity a bit, by looking at a statically determinate hinged beam:
+
+```{figure} ./hinged_SD/structure.svg
+:width: 100%
+:name: hb_model
+:align: center
+Statically determinate hinged beam
+```
+
+```{exercise} Statically determinate hinged beam
+:label: hb
+:nonumber: true
+
+Make the statically determinate hinged beam with MOLA
+```
+
+```{solution} hb
+:class: dropdown
+
+![](./hinged_SD/structure.webp)
+
+```
+
+```{exercise} Influence line vertical support reaction at B for the statically determinate hinged beam
+:label: hb_B
+:nonumber: true
+
+Show the influence line of the vertical support reaction at B
+```
+
+```{solution} hb_B
+:class: dropdown
+
+![](./hinged_SD/inf_B.webp)
+```
+
+```{exercise} Influence line bending moment at D for the statically determinate hinged beam
+:label: hb_MD
+:nonumber: true
+
+Show the influence line for the bending moment at D for the statically determinate hinged beam
+```
+
+```{solution} hb_MD
+:class: dropdown
+
+![](./hinged_SD/inf_MD.webp)
+
+```
+
+```{exercise} Influence line bending moment at B for the statically determinate hinged beam
+:label: hb_MB
+:nonumber: true
+
+Show the influence line for the bending moment at B for the statically determinate hinged beam
+```
+
+```{solution} hb_MB
+:class: dropdown
+
+![](./hinged_SD/inf_MB.webp)
+
+```
+
