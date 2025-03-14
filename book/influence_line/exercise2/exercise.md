@@ -53,7 +53,7 @@ Show the influence line of the vertical support reaction at A
 ```
 
 ```{exercise} Influence line vertical support reaction at B for simply supported beam
-:label: ss_A
+:label: ss_B
 :nonumber: true
 
 Show the influence line of the vertical support reaction at B
@@ -81,7 +81,7 @@ Show the influence line for the bending moment halfway the beam
 ```
 
 ```{exercise} Influence line displacement for simply supported beam
-:label: ss_M
+:label: ss_w
 :nonumber: true
 
 Show the influence line for the displacement halfway the beam
@@ -95,7 +95,7 @@ Show the influence line for the displacement halfway the beam
 ```
 
 ```{exercise} Influence line rotation for simply supported beam
-:label: ss_M
+:label: ss_phi
 :nonumber: true
 
 Show the influence line for the rotation halfway the beam
