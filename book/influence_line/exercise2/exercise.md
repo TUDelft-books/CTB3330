@@ -268,7 +268,7 @@ Finally, let's consider another statically indeterminate hinged beam.
 
 ```{figure} ./3sup/structure.svg
 :width: 80%
-:name: is_model
+:name: 3sup_model
 :align: center
 Statically indeterminate hinged beam
 ```
@@ -293,7 +293,7 @@ Make the statically indeterminate beam with MOLA
 Show the influence line of the vertical support reaction at A for the statically indeterminate beam 
 ```
 
-```{solution} is_A
+```{solution} SO_A
 :class: dropdown
 
 ![](./3sup/inf_A.webp)
