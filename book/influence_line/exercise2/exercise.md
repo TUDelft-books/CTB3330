@@ -212,3 +212,56 @@ Show the influence line for the rotation in B for the statically determinate hin
 ![](./hinged_SD/inf_phiB.webp)
 ```
 
+## Statically indeterminate hinged beam with stiff part
+
+Let's consider a statically indeterminate beam with an infinitive stiff part:
+
+```{figure} ./SO/structure.svg
+:width: 80%
+:name: is_model
+:align: center
+Statically indeterminate hinged beam with stiff part
+```
+
+```{exercise} Statically indeterminate beam with stiff part
+:label: is
+:nonumber: true
+
+Make the statically indeterminate beam with stiff part with MOLA
+```
+
+```{solution} is
+:class: dropdown
+
+![](./SO/structure.webp)
+```
+
+```{exercise} Influence line vertical support reaction at B for the statically indeterminate beam with stiff part
+:label: is_B
+:nonumber: true
+
+Show the influence line of the vertical support reaction at B for the statically indeterminate beam with stiff part
+```
+
+```{solution} is_B
+:class: dropdown
+
+![](./SO/inf_B.webp)
+```
+
+```{exercise} Influence line bending moment halfway AB for the statically indeterminate hinged beam
+:label: is_MAB
+:nonumber: true
+
+Show the influence line for the bending moment halfway AB for the statically indeterminate hinged beam
+```
+
+```{solution} is_MAB
+:class: dropdown
+
+![](./SO/inf_M.webp)
+
+```
+
+## Statically indeterminate hinged beam
+Finally, let's consider another statically indeterminate hinged beam
