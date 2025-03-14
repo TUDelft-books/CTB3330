@@ -18,7 +18,7 @@ We'll use the following components:
 Let's start with the most basic model, a simply supported beam:
 
 ```{figure} ./simply_supported/structure.svg
-:width: 200%
+:width: 80%
 :name: simply_supported
 :align: center
 Simply supported beam
@@ -112,7 +112,7 @@ Show the influence line for the rotation halfway the beam
 Let's increase complexity a bit, by looking at a statically determinate hinged beam:
 
 ```{figure} ./hinged_SD/structure.svg
-:width: 100%
+:width: 80%
 :name: hb_model
 :align: center
 Statically determinate hinged beam
