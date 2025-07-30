@@ -151,8 +151,6 @@ Maak de ingeklemde scharnierligger met MOLA
 :align: center
 ```
 
-```
-
 ```{exercise} Verticale oplegging bij A
 :label: hb_A
 :nonumber: true
