@@ -72,7 +72,7 @@ Laten we de complexiteit een beetje vergroten met de volgende scharnierligger:
 
 ```{figure} ./scharnierligger/scharnierligger.svg
 :width: 80%
-:name: simply_supported
+:name: scharnierligegr
 :align: center
 Scharnierligger
 ```
@@ -85,42 +85,42 @@ Maak de ligger op drie steunpunten met MOLA
 ```
 
 ```{exercise} Linker verticale oplegging
-:label: ss_A
+:label: sl_A
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bepaald kan worden
 ```
 
 ```{exercise} Middelste verticale oplegging
-:label: ss_B
+:label: sl_B
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de middelste verticale oplegging bepaald kan worden
 ```
 
 ```{exercise} Rechter verticale oplegging
-:label: ss_C
+:label: sl_C
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging bepaald kan worden
 ```
 
 ```{exercise} Moment boven middelste oplegging
-:label: ss_D
+:label: sl_D
 :nonumber: true
 
 Toon het mechanisme waarmee het moment boven de middelste oplegging bepaald kan worden
 ```
 
 ```{exercise} Moment halverwege rechter overspanning
-:label: ss_E
+:label: sl_E
 :nonumber: true
 
 Toon het mechanisme waarmee het moment halverwege de rechter overspanning bepaald kan worden
 ```
 
 ```{exercise} Dwarskracht in scharnier
-:label: ss_E
+:label: sl_E
 :nonumber: true
 
 Toon het mechanisme waarmee de dwarskracht in het scharnier bepaald kan worden
@@ -174,8 +174,8 @@ Toon het mechanisme waarmee het oplegmoment in A bepaald kan worden
 Toon het mechanisme waarmee de verticale oplegreactie in B bepaald kan worden
 ```
 
-```{exercise} Verticale oplegging bij B
-:label: hb_B
+```{exercise} Verticale oplegging bij C
+:label: hb_C
 :nonumber: true
 
 Toon het mechanisme waarmee de verticale oplegreactie in C bepaald kan worden
@@ -198,7 +198,7 @@ Toon het mechanisme waarmee het moment in B bepaald kan worden
 ```
 
 ```{exercise} Dwarskracht in D
-:label: hb_MB
+:label: hb_VD
 :nonumber: true
 
 Toon het mechanisme waarmee de dwarskracht in D bepaald kan worden
