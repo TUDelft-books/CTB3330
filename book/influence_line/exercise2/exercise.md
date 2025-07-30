@@ -1,9 +1,9 @@
-# MOLA exercise
+# Workshop virtuele arbeid
 
-In this exercise, you're going to find influence lines using MOLA. It's meant to give you insight in when these influence lines have straight and/or curved parts. 
+In deze workshop ga je de mechanismes die nodig zijn om virtuele arbeid toe te passen. Dat ga je doen met MOLA.
 
-## Components
-We'll use the following components:
+## Onderdelen
+We maken gebruik van de volgende componenten
 | MOLA    | Model |
 | :--------: | :------: |
 | ![](./parts/fix.webp)  | ![](./parts/fixed.svg)|
@@ -11,318 +11,196 @@ We'll use the following components:
 | ![](./parts/sliding_support.webp)| ![](./parts/sliding_support.svg)  |
 | ![](./parts/sliding_hinged_support.webp) | ![](./parts/sliding_hinged_support.svg)|
 | ![](./parts/beam.webp) | ![](parts/beam.svg)|
-| ![](./parts/stiff.webp) | ![](parts/stiff.svg) |
-| ![](./parts/1rad.webp) | ![](parts/1rad.svg) |
+| ![](./parts/hinge.webp) | ![](parts/hinge.svg)|
 
-## Simply supported beam
-Let's start with the most basic model, a simply supported beam:
+## Ligger op twee steunpunten
+Laten we beginnen met een heel simpel model
 
 ```{figure} ./simply_supported/structure.svg
 :width: 80%
 :name: simply_supported
 :align: center
-Simply supported beam
+Ligger op twee steunpunten
 ```
 
-```{exercise} Simply supported beam
+```{exercise} Ligger op twee steunpunten
 :label: ss
 :nonumber: true
 
-Make the simply supported beam with MOLA
+Maak de ligger op twee steunpunten met MOLA
 ```
 
-```{solution} ss
+````{solution} ss
 :class: dropdown
 
-![](./simply_supported/structure.webp)
-
+```{figure} ./simply_supported/structure.webp
+:align: center
 ```
 
-```{exercise} Influence line vertical support reaction at A for simply supported beam
+````
+
+```{exercise} Linker verticale oplegging
 :label: ss_A
 :nonumber: true
 
-Show the influence line of the vertical support reaction at A
+Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bepaald kan worden
 ```
 
-```{solution} ss_A
-:class: dropdown
+```{exercise} Linker horizontale oplegging
+:label: ss_Ah
+:nonumber: true
 
-![](./simply_supported/inf_A.webp)
-
+Toon het mechanisme waarmee de oplegreactie in de linker horizontale oplegging bepaald kan worden
 ```
 
-```{exercise} Influence line vertical support reaction at B for simply supported beam
+```{exercise} Rechter verticale oplegging
 :label: ss_B
 :nonumber: true
 
-Show the influence line of the vertical support reaction at B
+Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging bepaald kan worden
 ```
 
-```{solution} ss_B
-:class: dropdown
-
-![](./simply_supported/inf_B.webp)
-
-```
-
-```{exercise} Influence line bending moment for simply supported beam
+```{exercise} Moment
 :label: ss_M
 :nonumber: true
 
-Show the influence line for the bending moment halfway the beam
+Toon het mechanisme het moment halverwege de balk bepaald kan worden
 ```
 
-```{solution} ss_M
-:class: dropdown
+## Scharnierligger
+Laten we de complexiteit een beetje vergroten met de volgende scharnierligger:
 
-![](./simply_supported/inf_M.webp)
-
+```{figure} ./scharnierligger/scharnierligger.svg
+:width: 80%
+:name: simply_supported
+:align: center
+Scharnierligger
 ```
 
-```{exercise} Influence line displacement for simply supported beam
-:label: ss_w
+```{exercise} Scharnierligger steunpunten
+:label: sl
 :nonumber: true
 
-Show the influence line for the displacement halfway the beam
+Maak de ligger op drie steunpunten met MOLA
 ```
 
-```{solution} ss_w
-:class: dropdown
-
-![](./simply_supported/inf_w.webp)
-
-```
-
-```{exercise} Influence line rotation for simply supported beam
-:label: ss_phi
+```{exercise} Linker verticale oplegging
+:label: ss_A
 :nonumber: true
 
-Show the influence line for the rotation halfway the beam
+Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bepaald kan worden
 ```
 
-```{solution} ss_phi
-:class: dropdown
+```{exercise} Middelste verticale oplegging
+:label: ss_B
+:nonumber: true
 
-![](./simply_supported/inf_phi.webp)
-
+Toon het mechanisme waarmee de oplegreactie in de middelste verticale oplegging bepaald kan worden
 ```
 
-## Statically determinate hinged beam
-Let's increase complexity a bit, by looking at a statically determinate hinged beam:
+```{exercise} Rechter verticale oplegging
+:label: ss_C
+:nonumber: true
+
+Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging bepaald kan worden
+```
+
+```{exercise} Moment boven middelste oplegging
+:label: ss_D
+:nonumber: true
+
+Toon het mechanisme waarmee het moment boven de middelste oplegging bepaald kan worden
+```
+
+```{exercise} Moment halverwege rechter overspanning
+:label: ss_E
+:nonumber: true
+
+Toon het mechanisme waarmee het moment halverwege de rechter overspanning bepaald kan worden
+```
+
+```{exercise} Dwarskracht in scharnier
+:label: ss_E
+:nonumber: true
+
+Toon het mechanisme waarmee de dwarskracht in het scharnier bepaald kan worden
+```
+
+
+## Ingeklemde scharnierligger
+Laten we het probleem nog ietsje moeilijker maken, met een ingeklemde scharnierligger
 
 ```{figure} ./hinged_SD/structure.svg
 :width: 80%
 :name: hb_model
 :align: center
-Statically determinate hinged beam
+Ingeklemde scharnierligger
 ```
 
-```{exercise} Statically determinate hinged beam
+```{exercise} Ingeklemde scharnierligger
 :label: hb
 :nonumber: true
 
-Make the statically determinate hinged beam with MOLA
+Maak de ingeklemde scharnierligger met MOLA
 ```
 
 ```{solution} hb
 :class: dropdown
 
-![](./hinged_SD/structure.webp)
+```{figure} ./hinged_SD/structure.webp
+:align: center
+```
 
 ```
 
-```{exercise} Influence line vertical support reaction at B for the statically determinate hinged beam
+```{exercise} Verticale oplegging bij A
+:label: hb_A
+:nonumber: true
+
+Toon het mechanisme waarmee de verticale oplegreactie in A bepaald kan worden
+```
+
+```{exercise} Oplegmoment bij A
+:label: hb_Am
+:nonumber: true
+
+Toon het mechanisme waarmee het oplegmoment in A bepaald kan worden
+```
+
+```{exercise} Verticale oplegging bij B
 :label: hb_B
 :nonumber: true
 
-Show the influence line of the vertical support reaction at B
+Toon het mechanisme waarmee de verticale oplegreactie in B bepaald kan worden
 ```
 
-```{solution} hb_B
-:class: dropdown
+```{exercise} Verticale oplegging bij B
+:label: hb_B
+:nonumber: true
 
-![](./hinged_SD/inf_B.webp)
+Toon het mechanisme waarmee de verticale oplegreactie in C bepaald kan worden
 ```
 
-```{exercise} Influence line bending moment at D for the statically determinate hinged beam
+```{exercise} Moment in D
 :label: hb_MD
 :nonumber: true
 
-Show the influence line for the bending moment at D for the statically determinate hinged beam
-```
-
-```{solution} hb_MD
-:class: dropdown
-
-![](./hinged_SD/inf_MD.webp)
+Toon het mechanisme waarmee het moment in D bepaald kan worden
 
 ```
 
-```{exercise} Influence line bending moment at B for the statically determinate hinged beam
+```{exercise} Moment in B
 :label: hb_MB
 :nonumber: true
 
-Show the influence line for the bending moment at B for the statically determinate hinged beam
-```
-
-```{solution} hb_MB
-:class: dropdown
-
-![](./hinged_SD/inf_MB.webp)
+Toon het mechanisme waarmee het moment in B bepaald kan worden
 
 ```
 
-```{exercise} Influence line displacement in D for the statically determinate hinged beam
-:label: hb_WD
+```{exercise} Dwarskracht in D
+:label: hb_MB
 :nonumber: true
 
-Show the influence line for the displacement in D for the statically determinate hinged beam
-```
-
-```{solution} hb_WD
-:class: dropdown
-
-![](./hinged_SD/inf_WD.webp)
-```
-
-```{exercise} Influence line displacement in S2 for the statically determinate hinged beam
-:label: hb_WS
-:nonumber: true
-
-Show the influence line for the displacement in S2 for the statically determinate hinged beam
-```
-
-```{solution} hb_WS
-:class: dropdown
-
-![](./hinged_SD/inf_WS.webp)
-```
-
-```{exercise} Influence line rotation in B for the statically determinate hinged beam
-:label: hb_phiB
-:nonumber: true
-
-Show the influence line for the rotation in B for the statically determinate hinged beam
-```
-
-```{solution} hb_phiB
-:class: dropdown
-
-![](./hinged_SD/inf_phiB.webp)
-```
-
-## Statically indeterminate hinged beam with stiff part
-
-Let's consider a statically indeterminate beam with an infinitive stiff part:
-
-```{figure} ./SO/structure.svg
-:width: 80%
-:name: is_model
-:align: center
-Statically indeterminate hinged beam with stiff part
-```
-
-```{exercise} Statically indeterminate beam with stiff part
-:label: is
-:nonumber: true
-
-Make the statically indeterminate beam with stiff part with MOLA
-```
-
-```{solution} is
-:class: dropdown
-
-![](./SO/structure.webp)
-```
-
-```{exercise} Influence line vertical support reaction at B for the statically indeterminate beam with stiff part
-:label: is_B
-:nonumber: true
-
-Show the influence line of the vertical support reaction at B for the statically indeterminate beam with stiff part
-```
-
-```{solution} is_B
-:class: dropdown
-
-![](./SO/inf_B.webp)
-```
-
-```{exercise} Influence line bending moment halfway AB for the statically indeterminate hinged beam with stiff part
-:label: is_MAB
-:nonumber: true
-
-Show the influence line for the bending moment halfway AB for the statically indeterminate hinged beam with stiff part
-```
-
-```{solution} is_MAB
-:class: dropdown
-
-![](./SO/inf_M.webp)
-
-```
-
-## Statically indeterminate hinged beam
-Finally, let's consider another statically indeterminate hinged beam.
-
-```{figure} ./3sup/structure.svg
-:width: 80%
-:name: 3sup_model
-:align: center
-Statically indeterminate hinged beam
-```
-
-```{exercise} Statically indeterminate beam
-:label: SO
-:nonumber: true
-
-Make the statically indeterminate beam with MOLA
-```
-
-```{solution} SO
-:class: dropdown
-
-![](./3sup/structure.webp)
-```
-
-```{exercise} Influence line vertical support reaction at A for the statically indeterminate beam
-:label: SO_A
-:nonumber: true
-
-Show the influence line of the vertical support reaction at A for the statically indeterminate beam 
-```
-
-```{solution} SO_A
-:class: dropdown
-
-![](./3sup/inf_A.webp)
-```
-
-```{exercise} Influence line bending moment at B for the statically indeterminate hinged beam
-:label: SO_MB
-:nonumber: true
-
-Show the influence line for the bending moment at B for the statically indeterminate hinged beam
-```
-
-```{solution} SO_MB
-:class: dropdown
-
-![](./3sup/inf_MB.webp)
-
-```
-
-```{exercise} Influence line bending moment at D for the statically indeterminate hinged beam
-:label: SO_MD
-:nonumber: true
-
-Show the influence line for the bending moment at D for the statically indeterminate hinged beam
-```
-
-```{solution} SO_MD
-:class: dropdown
-
-![](./3sup/inf_MD.webp)
+Toon het mechanisme waarmee de dwarskracht in D bepaald kan worden
 
 ```
