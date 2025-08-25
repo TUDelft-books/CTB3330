@@ -46,11 +46,25 @@ Maak de ligger op twee steunpunten met MOLA
 Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bepaald kan worden
 ```
 
+````{solution} ss_A
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening1_verticalereactielinks.webp
+:align: center
+```
+
 ```{exercise} Linker horizontale oplegging
 :label: ss_Ah
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de linker horizontale oplegging bepaald kan worden
+```
+
+````{solution} ss_Ah
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening1_horizontalereactielinks.webp
+:align: center
 ```
 
 ```{exercise} Rechter verticale oplegging
@@ -60,11 +74,25 @@ Toon het mechanisme waarmee de oplegreactie in de linker horizontale oplegging b
 Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging bepaald kan worden
 ```
 
+````{solution} ss_B
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening1_verticalereactierechts.webp
+:align: center
+```
+
 ```{exercise} Moment
 :label: ss_M
 :nonumber: true
 
 Toon het mechanisme het moment halverwege de balk bepaald kan worden
+```
+
+````{solution} ss_M
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening1_momenthalverwege.webp
+:align: center
 ```
 
 ## Scharnierligger
@@ -84,11 +112,27 @@ Scharnierligger
 Maak de ligger op drie steunpunten met MOLA
 ```
 
+````{solution} sl
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_ligger.webp
+:align: center
+Ligger op drie steunpunten
+```
+
 ```{exercise} Linker verticale oplegging
 :label: sl_A
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bepaald kan worden
+```
+
+````{solution} sl_A
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_verticalereactielinks.webp
+:align: center
+Mechanisme voor bepaling van de linker verticale oplegreactie. De oplegging links kan vrij verticaal bewegen en is dus eigenlijk een verticale roloplegging. 
 ```
 
 ```{exercise} Middelste verticale oplegging
@@ -98,11 +142,25 @@ Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bep
 Toon het mechanisme waarmee de oplegreactie in de middelste verticale oplegging bepaald kan worden
 ```
 
+````{solution} sl_B
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_verticalereactiemidden.webp
+:align: center
+```
+
 ```{exercise} Rechter verticale oplegging
 :label: sl_C
 :nonumber: true
 
 Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging bepaald kan worden
+```
+
+````{solution} sl_C
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_verticalereactierechts.webp
+:align: center
 ```
 
 ```{exercise} Moment boven middelste oplegging
@@ -112,6 +170,13 @@ Toon het mechanisme waarmee de oplegreactie in de rechter verticale oplegging be
 Toon het mechanisme waarmee het moment boven de middelste oplegging bepaald kan worden
 ```
 
+````{solution} sl_D
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_momentmidden.webp
+:align: center
+```
+
 ```{exercise} Moment halverwege rechter overspanning
 :label: sl_E
 :nonumber: true
@@ -119,13 +184,12 @@ Toon het mechanisme waarmee het moment boven de middelste oplegging bepaald kan 
 Toon het mechanisme waarmee het moment halverwege de rechter overspanning bepaald kan worden
 ```
 
-```{exercise} Dwarskracht in scharnier
-:label: sl_E
-:nonumber: true
+````{solution} sl_E
+:class: dropdown
 
-Toon het mechanisme waarmee de dwarskracht in het scharnier bepaald kan worden
+```{figure} ./simply_supported/Oefening2_momentrechts.webp
+:align: center
 ```
-
 
 ## Ingeklemde scharnierligger
 Laten we het probleem nog ietsje moeilijker maken, met een ingeklemde scharnierligger
@@ -158,11 +222,26 @@ Maak de ingeklemde scharnierligger met MOLA
 Toon het mechanisme waarmee de verticale oplegreactie in A bepaald kan worden
 ```
 
+````{solution} hb_A
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_verticalereactieA.webp
+:align: center
+Mechanisme voor de bepaling van de verticale oplegreactie in A. De oplegging in A is een inklemming die vrij kan bewegen in verticale richting. 
+```
+
 ```{exercise} Oplegmoment bij A
 :label: hb_Am
 :nonumber: true
 
 Toon het mechanisme waarmee het oplegmoment in A bepaald kan worden
+```
+
+````{solution} hb_Am
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_momentA.webp
+:align: center
 ```
 
 ```{exercise} Verticale oplegging bij B
@@ -172,11 +251,25 @@ Toon het mechanisme waarmee het oplegmoment in A bepaald kan worden
 Toon het mechanisme waarmee de verticale oplegreactie in B bepaald kan worden
 ```
 
+````{solution} hb_B
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_verticalereactieB.webp
+:align: center
+```
+
 ```{exercise} Verticale oplegging bij C
 :label: hb_C
 :nonumber: true
 
 Toon het mechanisme waarmee de verticale oplegreactie in C bepaald kan worden
+```
+
+````{solution} hb_C
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_verticalereactieC.webp
+:align: center
 ```
 
 ```{exercise} Moment in D
@@ -187,6 +280,13 @@ Toon het mechanisme waarmee het moment in D bepaald kan worden
 
 ```
 
+````{solution} hb_MD
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_momentD.webp
+:align: center
+```
+
 ```{exercise} Moment in B
 :label: hb_MB
 :nonumber: true
@@ -195,10 +295,25 @@ Toon het mechanisme waarmee het moment in B bepaald kan worden
 
 ```
 
+````{solution} hb_MB
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_momentB.webp
+:align: center
+```
+
 ```{exercise} Dwarskracht in D
 :label: hb_VD
 :nonumber: true
 
 Toon het mechanisme waarmee de dwarskracht in D bepaald kan worden
 
+```
+
+````{solution} hb_VD
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_dwarskrachtD.webp
+:align: center
+Mechanisme voor bepaling van de dwarskracht in D, de delen links en rechts van D lopen evenwijdig. 
 ```
