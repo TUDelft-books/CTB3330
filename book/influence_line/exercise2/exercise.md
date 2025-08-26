@@ -191,6 +191,13 @@ Toon het mechanisme waarmee het moment halverwege de rechter overspanning bepaal
 :align: center
 ```
 
+```{exercise} Dwarskracht in scharnier
+:label: sl_F
+:nonumber: true
+
+Toon het mechanisme waarmee de dwarskracht in het scharnier bepaald kan worden
+```
+
 ## Ingeklemde scharnierligger
 Laten we het probleem nog ietsje moeilijker maken, met een ingeklemde scharnierligger
 
