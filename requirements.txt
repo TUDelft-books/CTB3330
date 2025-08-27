@@ -8,5 +8,6 @@ sphinx-exercise == 1.0.1
 sphinx-named-colors == 1.0.1
 teachbooks-sphinx-tippy == 1.0.12
 sphinx-iframes == 1.0.5
+sphinx-accessibility
 
 git+https://github.com/TeachBooks/Sphinx-Thebe #BUMP
