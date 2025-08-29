@@ -131,8 +131,7 @@ Toon het mechanisme waarmee de oplegreactie in de linker verticale oplegging bep
 :class: dropdown
 
 ```{figure} ./simply_supported/Oefening2_verticalereactielinks.webp
-:align: center
-Mechanisme voor bepaling van de linker verticale oplegreactie. De oplegging links kan vrij verticaal bewegen en is dus eigenlijk een verticale roloplegging. 
+:align: center 
 ```
 
 ```{exercise} Middelste verticale oplegging
@@ -196,6 +195,13 @@ Toon het mechanisme waarmee het moment halverwege de rechter overspanning bepaal
 :nonumber: true
 
 Toon het mechanisme waarmee de dwarskracht in het scharnier bepaald kan worden
+```
+
+````{solution} sl_F
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening2_dwarskrachtscharnier.webp
+:align: center
 ```
 
 ## Ingeklemde scharnierligger
