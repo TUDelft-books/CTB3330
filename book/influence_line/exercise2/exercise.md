@@ -315,6 +315,36 @@ Toon het mechanisme waarmee het moment in B bepaald kan worden
 :align: center
 ```
 
+```{exercise} Dwarskracht in S1
+:label: hb_VS1
+:nonumber: true
+
+Toon het mechanisme waarmee de dwarskracht in het scharnier S1 bepaald kan worden
+
+```
+
+````{solution} hb_VS1
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_dwarskrachtS1.webp
+:align: center
+```
+
+```{exercise} Dwarskracht in S2
+:label: hb_VS1
+:nonumber: true
+
+Toon het mechanisme waarmee de dwarskracht in het scharnier S2 bepaald kan worden
+
+```
+
+````{solution} hb_VS1
+:class: dropdown
+
+```{figure} ./simply_supported/Oefening3_dwarskrachtS2.webp
+:align: center
+```
+
 ```{exercise} Dwarskracht in D
 :label: hb_VD
 :nonumber: true
