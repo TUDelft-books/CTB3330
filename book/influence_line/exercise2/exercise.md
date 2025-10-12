@@ -1,5 +1,7 @@
 # MOLA exercise
 
+% bronbestanden heir: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/MOLA
+
 In this exercise, you're going to find influence lines using MOLA. It's meant to give you insight in when these influence lines have straight and/or curved parts. 
 
 ## Components
