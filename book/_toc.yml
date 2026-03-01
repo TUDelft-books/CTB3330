@@ -6,8 +6,8 @@ parts:
     chapters:
     - file: instructions
     - file: contact_information
-    - url: https://brightspace.tudelft.nl/d2l/lms/news/main.d2l?ou=680899
-      title: Brightspace announcements 📢
+    - url: https://brightspace.tudelft.nl/d2l/home/774714
+      title: Brightspace 📢
   - caption: Asymmetrical and inhomogeous cross-sections
     chapters:
     - file: crosssection/unsymmetrical_bending.ipynb

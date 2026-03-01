@@ -12,4 +12,4 @@ If you spot any mistakes, you can click on {octicon}`mark-github;1em` --> {fa}`l
 If you'd like to make this TeachBook more personal by adding (private or public) annotations I can recommend the [Hypothesis extension](https://web.hypothes.is/start/). This is only for your own use, I won't monitor public post on this platform.
 
 ## Version
-This is the `2024-2025`-version of the TeachBook. Updates during this course are communicated on the relevant pages and in [the changelog](./changelog.md). After each of the workshops, updates will follow containing the solutions to the practice exercises.
+This is the `2025-2026`-version of the TeachBook. Updates during this course are communicated on the relevant pages and in [the changelog](./changelog.md). After each of the workshops, updates will follow containing the solutions to the practice exercises.
