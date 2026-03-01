@@ -26,7 +26,7 @@ sphinx:
         text: CTB3330 - Structural Mechanics 4 2025/2026
       repository_url: "https://github.com/TUDelft-books/CTB3330" #add your own repo URL here
       path_to_docs: "book"
-      repository_branch: "2025"
+      repository_branch: "2025-teacher"
       use_edit_page_button: true
       use_repository_button: true
       use_issues_button : true

@@ -4,19 +4,197 @@ on:
   push:
     branches:
     - '**'
-    # If your git repository has the Jupyter Book within some-subfolder next to
+    - '!2025' # Exclude to avoid triggering the deploy workflow on its own changes
+    # If your git repository has the TeachBook or Jupyter Book v1 within some-subfolder next to
     # unrelated files, you can make this run only if a file within that specific
     # folder (or the workflow file itself) has been modified.
     #
     paths:
     - book/**
-    - .github/workflows/call-deploy-book.yml
     - requirements.txt
+    - .github/workflows/call-deploy-book.yml
   workflow_dispatch:
 
-jobs: 
+jobs:
+  generate-student-version:
+    # Debug: Always show what branch we're on
+    if: ${{ github.ref == 'refs/heads/2025-teacher' || github.event_name == 'workflow_dispatch' }}
+    name: Generate student versions
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbformat
+        
+      - name: Remove solution sections from markdown files
+        run: |
+          python -c '
+          import os
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk("."):
+              for file in files:
+                  if file.endswith(".md"):
+                      markdown_file = os.path.join(root, file)
+                      with open(markdown_file, "r") as f:
+                          lines = f.readlines()
+
+                      # Remove lines between "% solution_start" and "% solution_end"
+                      # Also remove MyST solution directive blocks between ":::{solution}" and ":::"
+                      in_solution_block = False
+                      in_myst_solution_block = False
+                      myst_solution_colons = 0
+                      filtered_lines = []
+                      for line in lines:
+                          stripped_line = line.strip()
+                          if "% solution_start" in line:
+                              in_solution_block = True
+                          elif "% solution_end" in line:
+                              in_solution_block = False
+                          elif not in_solution_block:
+                              filtered_lines.append(line)
+
+                      # Raise an error if a solution block was not properly closed
+                      if in_solution_block:
+                          raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
+
+                      # Save the modified markdown file
+                      with open(markdown_file, "w") as f:
+                          f.writelines(filtered_lines)
+          '
+
+      - name: Remove solution cells
+        run: |
+          python -c "
+          import os
+          import nbformat
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk('.'):
+              for file in files:
+                  if file.endswith('.ipynb'):
+                      notebook_file = os.path.join(root, file)
+                      with open(notebook_file) as f:
+                          notebook = nbformat.read(f, as_version=4)
+
+                      # Remove cells tagged with 'solution'
+                      notebook.cells = [cell for cell in notebook.cells if 'solution' not in cell.metadata.get('tags', [])]
+
+                      # Save the modified notebook
+                      with open(notebook_file, 'w') as f:
+                          nbformat.write(notebook, f)
+          "
+
+      - name: Remove solution sections from notebook cells
+        run: |
+          python -c "
+          import os
+          import nbformat
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk('.'):
+              for file in files:
+                  if file.endswith('.ipynb'):
+                      notebook_file = os.path.join(root, file)
+                      with open(notebook_file) as f:
+                          notebook = nbformat.read(f, as_version=4)
+
+                      # Process each cell to remove solution sections
+                      for cell in notebook.cells:
+                          if 'source' in cell and cell.source:
+                              lines = cell.source.split('\n')
+                              in_solution_block = False
+                              in_myst_solution_block = False
+                              myst_solution_colons = 0
+                              filtered_lines = []
+                              
+                              for line in lines:
+                                  stripped_line = line.strip()
+                                  if '% solution_start' in line:
+                                      in_solution_block = True
+                                  elif '% solution_end' in line:
+                                      in_solution_block = False
+                                  elif not in_solution_block:
+                                      filtered_lines.append(line)
+                              
+                              # Raise an error if a solution block was not properly closed
+                              if in_solution_block:
+                                  raise ValueError('Unclosed % solution_start detected in notebook: ' + notebook_file)
+                              
+                              # Update cell source
+                              cell.source = '\n'.join(filtered_lines)
+
+                      # Save the modified notebook
+                      with open(notebook_file, 'w') as f:
+                          nbformat.write(notebook, f)
+          "
+
+      - name: Delete old branch and recreate from cleaned source
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Delete remote branch to start fresh (ignore errors if it doesn't exist)
+          git push origin --delete 2025 2>/dev/null || true
+          
+          # Delete local branch to start fresh (ignore errors if it doesn't exist)
+          git branch -D 2025 2>/dev/null || true
+          
+          # Create fresh 2025 from cleaned 2025-teacher
+          git checkout -b 2025 origin/2025-teacher
+          git add .
+          
+          # Commit and capture hash if there are staged changes
+          git commit -m "Generate assignment version" && {
+            COMMIT_HASH=$(git rev-parse HEAD)
+            echo "Captured commit hash: $COMMIT_HASH"
+            
+            # Update _config.yml with git_exclude_commits
+            python -c "
+          import re
+          with open('book/_config.yml', 'r') as f:
+              content = f.read()
+
+          commit_hash = '$COMMIT_HASH'
+
+          # Append hash to git_exclude_commits list
+          content = re.sub(
+              r'(git_exclude_commits:)(\s*)(\[.*?\])',
+              f\"git_exclude_commits: [{repr(commit_hash)}]\",
+              content,
+              flags=re.DOTALL
+          )
+
+          with open('book/_config.yml', 'w') as f:
+              f.write(content)
+          "
+            
+            # Create second commit for config update
+            git add book/_config.yml
+            git commit -m "Update git_exclude_commits with cleaning commit hash"
+          } || echo "No changes to commit"
+          
+          git push origin 2025
+
   call-workflow:
-    uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
+    needs: generate-student-version
+    if: always() && (needs.generate-student-version.result == 'success' || needs.generate-student-version.result == 'skipped')
+    uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@v1
     secrets: inherit
     permissions:
       contents: read
