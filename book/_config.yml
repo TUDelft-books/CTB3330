@@ -30,13 +30,11 @@ sphinx:
       use_edit_page_button: true
       use_repository_button: true
       use_issues_button : true
-      tud_change_titlesize: false
-      git_show_all_authors: true
       launch_buttons:
         thebe: true
+    tud_change_titlesize: false
+    git_show_all_authors: true
   extra_extensions:
-    - sphinx.ext.imgconverter
-    - sphinx.ext.extlinks
     - teachbooks_favourites
     - sphinx_tudelft_theme
     - sphinx_apa_references
