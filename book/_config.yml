@@ -1,9 +1,9 @@
 # General settings
-title: Mechanics at Civil Engineering
-author: Tom van Woudenberg from Delft University of Technology<br>Built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a> #add your own name here
+title: CTB3330 - Structural Mechanics 4
+author: Tom van Woudenberg
 
 html:
-  baseurl :  "https://oit.tudelft.nl/CTB3330/2024/intro.html"
+  baseurl :  "https://oit.tudelft.nl/CTB3330/2025/intro.html"
   home_page_in_navbar       : true
 
 only_build_toc_files: true
@@ -14,31 +14,31 @@ execute:
 
 sphinx:
   config:
-    bibtex_reference_style: author_year
     html_show_copyright: false
-    html_last_updated_fmt: '%B %-d, %Y'
     html_static_path: ["figures"] # add folders that contain files that need to be included, such as the location of the logo(s)
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
       use_thebe_lite: true
-      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+      exclude_patterns: ["**/**"]
     html_theme_options:
       logo:
-        text: CTB3330 - Structural Mechanics 4
+        text: CTB3330 - Structural Mechanics 4 2025/2026
       repository_url: "https://github.com/TUDelft-books/CTB3330" #add your own repo URL here
       path_to_docs: "book"
-      repository_branch: "2024"
+      repository_branch: "2025"
       use_edit_page_button: true
       use_repository_button: true
       use_issues_button : true
+      git_show_all_authors: true
       launch_buttons:
         thebe: true
   extra_extensions:
     - sphinx.ext.imgconverter
     - sphinx.ext.extlinks
-    - sphinx_tudelft_theme
     - teachbooks_favourites
+    - sphinx_tudelft_theme
+    - sphinx_apa_references
     
 bibtex_bibfiles: 
   - references.bib
