@@ -43,12 +43,14 @@ parts:
     - file: influence_line/influence_line_3sup/overview.md
       sections:
       - file: influence_line/influence_line_3sup/Interactive_influence_line_Av.ipynb
+      - file: influence_line/influence_line_3sup/Interactive_influence_line_Bv.ipynb
       - file: influence_line/influence_line_3sup/Interactive_influence_line_M.ipynb
       - file: influence_line/influence_line_3sup/Interactive_influence_line_V.ipynb
       - file: influence_line/influence_line_3sup/Demo_class.ipynb
       - file: influence_line/influence_line_3sup/Interactive_influence_line_envelope.ipynb
-    - file: influence_line/exercise/exercise.ipynb
-    - file: influence_line/exercise2/exercise.md
+    - file: influence_line/lesson1/exercise1.md
+    #- file: influence_line/exercise/exercise.ipynb
+    #- file: influence_line/exercise2/exercise.md
   - caption: Plasticity
     chapters:
     - file: plasticity/plasticity1.ipynb
