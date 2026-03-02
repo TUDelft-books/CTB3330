@@ -53,8 +53,8 @@ parts:
       sections:
       - file: influence_line/lesson1/exercise1.md
       - file: influence_line/lesson1/exercise2.md
-    #- file: influence_line/exercise/exercise.ipynb
-    #- file: influence_line/exercise2/exercise.md
+    - file: influence_line/exercise/exercise.ipynb
+    - file: influence_line/exercise2/exercise.md
 # END REMOVE-FROM-RELEASE
   - caption: Plasticity
     chapters:
