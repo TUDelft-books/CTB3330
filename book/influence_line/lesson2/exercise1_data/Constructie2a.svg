@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export Constructie2a.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.96317in" height="0.793661in"
+		viewBox="0 0 213.348 57.1436" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="visShowViewports" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {marker-end:url(#mrkr5-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st5 {font-size:1em}
+		.st6 {baseline-shift:-32.4941%;font-size:0.649882em}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-8" class="st2" v:arrowType="5" v:arrowSize="2" v:setback="7.63" refX="-7.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group1239-1" transform="translate(57.0679,-7.31194)" v:mID="1239" v:groupContext="group">
+			<title>z-as.1239</title>
+			<g id="shape1240-2" v:mID="1240" v:groupContext="shape" transform="translate(57.1436,14.6239) rotate(90)">
+				<title>Blad.1240</title>
+				<path d="M0 57.14 L36.8 57.14" class="st1"/>
+			</g>
+			<g id="shape1241-9" v:mID="1241" v:groupContext="shape" transform="translate(-56.6929,0)">
+				<title>Blad.1241</title>
+				<desc>Influence line Bv</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="28.3465" cy="46.5136" width="56.7" height="21.2598"/>
+				<rect x="0" y="35.8837" width="56.6929" height="21.2598" class="st3"/>
+				<text x="5.69" y="42.91" class="st4" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Influence<v:newlineChar/><tspan
+							x="11.9" dy="1.2em" class="st5">line B</tspan><tspan dy="-0.279em" class="st6" v:baseFontSize="12">v</tspan></text>			</g>
+		</g>
+		<g id="shape1242-14" v:mID="1242" v:groupContext="shape" transform="translate(57.0679,-49.8316)">
+			<title>Blad.1242</title>
+			<path d="M0 57.14 L127.56 57.14" class="st7"/>
+		</g>
+		<g id="shape1243-17" v:mID="1243" v:groupContext="shape" transform="translate(69.4641,-48.4709) rotate(12.5288)">
+			<title>Ligger, 2 pt.1243</title>
+			<path d="M0 57.14 L130.67 57.14" class="st8"/>
+		</g>
+		<g id="shape1261-20" v:mID="1261" v:groupContext="shape" transform="translate(184.627,-14.3986)">
+			<title>Blad.1261</title>
+			<desc>1,5</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="14.1732" cy="50.057" width="28.35" height="14.1732"/>
+			<rect x="0" y="42.9703" width="28.3465" height="14.1732" class="st3"/>
+			<text x="6.67" y="53.66" class="st4" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1,5</text>		</g>
+	</g>
+</svg>

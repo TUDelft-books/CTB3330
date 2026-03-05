@@ -56,6 +56,7 @@ parts:
     - file: influence_line/lesson2/lesson.md
       sections:
       - file: influence_line/lesson2/exercise1.md
+      - file: influence_line/lesson2/exercise2.md
     - file: influence_line/exercise/exercise.ipynb
     - file: influence_line/exercise2/exercise.md
 # END REMOVE-FROM-RELEASE
