@@ -48,11 +48,11 @@ parts:
       - file: influence_line/influence_line_3sup/Interactive_influence_line_V.ipynb
       - file: influence_line/influence_line_3sup/Demo_class.ipynb
       - file: influence_line/influence_line_3sup/Interactive_influence_line_envelope.ipynb
-# START REMOVE-FROM-RELEASE
     - file: influence_line/lesson1/lesson
       sections:
       - file: influence_line/lesson1/exercise1.md
       - file: influence_line/lesson1/exercise2.md
+# START REMOVE-FROM-RELEASE
     - file: influence_line/exercise/exercise.ipynb
     - file: influence_line/exercise2/exercise.md
 # END REMOVE-FROM-RELEASE
