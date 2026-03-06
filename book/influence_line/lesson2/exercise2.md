@@ -208,7 +208,7 @@ Given is the following loaded structure with an influence line.
 :::::{exercise}
 :nonumber: true
 
-Given is the following loaded structure with an influence line.
+Given are the following loads with an influence line.
 
 ```{figure} ./exercise2_data/Constructie6.svg
 :align: center
@@ -221,3 +221,173 @@ Given is the following loaded structure with an influence line.
 
 :::::
 
+:::::{exercise}
+:nonumber: true
+
+Given is the following load combination and influence line:
+
+```{figure} ./exercise2_data/Constructie8.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+And four potential load conditions:
+
+::::{grid} 3
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./exercise2_data/Constructie8a.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+Option 1: one load at $x = 35 \, \rm{m}$ and one load at $x = 40 \, \rm{m}$
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./exercise2_data/Constructie8b.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+Option 2: one load at $x = 40 \, \rm{m}$ and one load at $x = 45 \, \rm{m}$
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./exercise2_data/Constructie8c.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+Option 3: one load at $x = 37.5 \, \rm{m}$ and one load at $x = 42.5 \, \rm{m}$
+
+```{figure-end}
+```
+
+:::
+
+::::
+
+```{h5p} https://tudelft.h5p.com/content/1292842430927029987/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Given is are the following load combination and influence line:
+
+::::{grid} 3
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./exercise2_data/loadcase_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+Load case 1
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./exercise2_data/loadcase_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+Load case 2
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./exercise2_data/inf_MC.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+:::
+
+::::
+
+```{h5p} https://tudelft.h5p.com/content/1292842437235762307/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Draw the influence line for the shear force just left of $\rm{B}$
+
+```{h5p} https://tudelft.h5p.com/content/1292842453690481227/embed
+```
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
+
+```{figure} ./exercise2_data/VBL.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+::::
+
+:::::{exercise}
+:nonumber: true
+
+Draw the influence line for the shear force just right of $\rm{B}$
+
+```{h5p} https://tudelft.h5p.com/content/1292842454902933927/embed
+```
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
+
+```{figure} ./exercise2_data/VBR.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
+:number:
+```
+
+::::

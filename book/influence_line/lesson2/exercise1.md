@@ -89,7 +89,7 @@ Option 4
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 ```{figure-start} ./exercise1_data/Constructie1a.svg
@@ -196,7 +196,7 @@ Option 4
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 ```{figure-start} ./exercise1_data/Constructie2c.svg

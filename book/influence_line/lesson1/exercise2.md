@@ -24,7 +24,7 @@ What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $-1$
@@ -45,7 +45,7 @@ What is the formula for the influence line between $\rm{D}$ and $\rm{S}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $-1$
@@ -66,7 +66,7 @@ What is the formula for the influence line between $\rm{D}$ and $\rm{B}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $0.5 \cdot x -2.5$
@@ -95,7 +95,7 @@ What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $0$
@@ -116,7 +116,7 @@ What is the formula for the influence line between $\rm{D}$ and $\rm{S}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $-x + 2$
@@ -137,7 +137,7 @@ What is the formula for the influence line between $\rm{S}$ and $\rm{B}$ in the 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $0.5 \cdot x -2.5$

@@ -22,7 +22,7 @@ For which you'll find the influence line for the vertical support reaction at $\
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 ```{figure} ./exercise1_data/antwoord_1.svg
@@ -46,7 +46,7 @@ number:
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 ```{figure} ./exercise1_data/antwoord_2.svg
@@ -72,7 +72,7 @@ Using the influence line you determined for the bending moment in $\rm{C}$.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 At $\rm{C}$.
@@ -100,7 +100,7 @@ number:
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $-20 \, \rm{kNm}$
@@ -128,7 +128,7 @@ number:
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $10 \, \rm{kNm}$
@@ -156,7 +156,7 @@ number:
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 $20 \, \rm{kNm}$
