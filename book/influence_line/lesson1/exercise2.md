@@ -15,7 +15,7 @@ For which you'll find the influence line for the vertical support reaction at $\
 :::::{exercise}
 :nonumber: true
 
-What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the given coordinate system for the vertical support reaction at $\rm{A}$?
+What is the formula for the influence line in the given coordinate system for the vertical support reaction at $\rm{A}$?
 
 ```{h5p} https://tudelft.h5p.com/content/1292838381544818047/embed
 ```
@@ -27,49 +27,8 @@ What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the 
 ::::{admonition} Solution
 :class: solution, dropdown
 
-$-1$
-
-::::
-
-% solution_end
-
-:::::{exercise}
-:nonumber: true
-
-What is the formula for the influence line between $\rm{D}$ and $\rm{S}$ in the given coordinate system for the vertical support reaction at $\rm{A}$?
-
-```{h5p} https://tudelft.h5p.com/content/1292838389374415697/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-$-1$
-
-::::
-
-% solution_end
-
-:::::{exercise}
-:nonumber: true
-
-What is the formula for the influence line between $\rm{D}$ and $\rm{B}$ in the given coordinate system for the vertical support reaction at $\rm{A}$?
-
-```{h5p} https://tudelft.h5p.com/content/1292838384643720757/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-$0.5 \cdot x -2.5$
+Between $\rm{A}$ and $\rm{S}$: $-1$
+Between $\rm{S}$ and $\rm{B}$: $0.5 \cdot x -2.5$
 
 ```{figure} ./exercise2_data/Av_1.svg
 ---
@@ -86,7 +45,7 @@ number:
 :::::{exercise}
 :nonumber: true
 
-What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the given coordinate system for the bending moment in $\rm{D}$?
+What is the formula for the influence line in the given coordinate system for the bending moment in $\rm{D}$?
 
 ```{h5p} https://tudelft.h5p.com/content/1292838391373165737/embed
 ```
@@ -98,49 +57,11 @@ What is the formula for the influence line between $\rm{A}$ and $\rm{D}$ in the 
 ::::{admonition} Solution
 :class: solution, dropdown
 
-$0$
+Between $\rm{A}$ and $\rm{D}$: $0$
 
-::::
+Between $\rm{D}$ and $\rm{S}$: $-x + 2$
 
-% solution_end
-
-:::::{exercise}
-:nonumber: true
-
-What is the formula for the influence line between $\rm{D}$ and $\rm{S}$ in the given coordinate system for the bending moment in $\rm{D}$?
-
-```{h5p} https://tudelft.h5p.com/content/1292838391742037887/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-$-x + 2$
-
-::::
-
-% solution_end
-
-:::::{exercise}
-:nonumber: true
-
-What is the formula for the influence line between $\rm{S}$ and $\rm{B}$ in the given coordinate system for the bending moment in $\rm{D}$?
-
-```{h5p} https://tudelft.h5p.com/content/1292838392264831747/embed
-```
-
-:::::
-
-% solution_start
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-$0.5 \cdot x -2.5$
+Between $\rm{S}$ and $\rm{B}$: $0.5 \cdot x -2.5$
 
 ```{figure} ./exercise2_data/M_D.svg
 ---
