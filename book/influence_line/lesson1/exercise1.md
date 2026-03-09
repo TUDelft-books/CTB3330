@@ -20,8 +20,6 @@ For which you'll find the influence line for the vertical support reaction at $\
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
@@ -32,9 +30,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 number:
 ---
 ```
-::::
 
-% solution_end
+::::
 
 :::::{exercise}
 :nonumber: true
@@ -43,8 +40,6 @@ number:
 ```
 
 :::::
-
-% solution_start
 
 ::::{admonition} Solution
 :class: solution, dropdown
@@ -58,8 +53,6 @@ number:
 ```
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -70,15 +63,11 @@ Using the influence line you determined for the bending moment in $\rm{C}$.
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
 At $\rm{C}$.
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -98,15 +87,11 @@ number:
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
 $-20 \, \rm{kNm}$
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -126,15 +111,11 @@ number:
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
 $10 \, \rm{kNm}$
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -154,13 +135,8 @@ number:
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
 $20 \, \rm{kNm}$
 ::::
-
-% solution_end
-

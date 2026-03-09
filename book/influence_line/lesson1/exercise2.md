@@ -22,8 +22,6 @@ What is the formula for the influence line in the given coordinate system for th
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
@@ -40,8 +38,6 @@ number:
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -51,8 +47,6 @@ What is the formula for the influence line in the given coordinate system for th
 ```
 
 :::::
-
-% solution_start
 
 ::::{admonition} Solution
 :class: solution, dropdown
@@ -72,5 +66,3 @@ number:
 ```
 
 ::::
-
-% solution_end
