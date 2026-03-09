@@ -43,7 +43,7 @@ Draw the influence line for the displacement of $\rm{D}$. Only indicate the valu
 
 Draw the influence line for the rotation of $\rm{B}$. Only indicate the values for which no calculations are required.
 
-```{h5p} https://tudelft.h5p.com/content/1292844965125610647/embed
+```{h5p} https://tudelft.h5p.com/content/1292844978419550627/embed
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292844966216343777/embed
