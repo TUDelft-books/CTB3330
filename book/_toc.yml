@@ -61,7 +61,12 @@ parts:
       - file: influence_line/lesson3/exercise1.md
       - file: influence_line/lesson3/exercise2.md
 # START REMOVE-FROM-RELEASE
-    - file: influence_line/exercise2/exercise.md
+    - file: influence_line/lesson4/lesson
+      sections:
+      - file: influence_line/lesson4/exercise.md
+      - file: influence_line/lesson4/exercise2.md
+      - file: influence_line/lesson4/exercise3.md
+      - file: influence_line/lesson4/exercise4.md
 # END REMOVE-FROM-RELEASE
   - caption: Plasticity
     chapters:
