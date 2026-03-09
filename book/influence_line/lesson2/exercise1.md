@@ -87,8 +87,6 @@ Option 4
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
@@ -104,8 +102,6 @@ Option 1
 ```
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -194,8 +190,6 @@ Option 4
 
 :::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
@@ -211,5 +205,3 @@ Option 3
 ```
 
 ::::
-
-% solution_end
