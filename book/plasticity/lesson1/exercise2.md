@@ -23,21 +23,35 @@ $$
 
 For which we're interested in the vertical displacement $w$ as a function of the applied load $F$.
 
-:::::{exercise}
-:nonumber: true
+:::{question} Exercise
+:admonition:
+:columns: 1 3 3 3
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292847688520503117/embed
-```
+Which cable will yield first?
+---
+[x] Cable $\rm{BE}$
+[ ] Cable $\rm{EG}$
+[ ] Cable $\rm{CH}$
+---
+:::
 
-:::::
+:::{question} Exercise
+:admonition:
+:columns: 1 3 3 3
+:class: exercise
+:nocaption:
+:showanswer:
 
-:::::{exercise}
-:nonumber: true
-
-```{h5p} https://tudelft.h5p.com/content/1292847693783867287/embed
-```
-
-:::::
+Which cables will yield when the structure collapses?
+---
+[ ] Cable $\rm{BE}$
+[ ] Cable $\rm{EG}$
+[x] Cable $\rm{CH}$
+---
+:::
 
 :::::{exercise}
 :nonumber: true
