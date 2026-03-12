@@ -74,6 +74,10 @@ parts:
     - file: plasticity/shape_factor.ipynb
     - file: plasticity/plastic_hinge.ipynb
     - file: plasticity/Example_2_lecture_3_plasticity.ipynb
+    - file: plasticity/lesson1/lesson.md
+      sections:
+      - file: plasticity/lesson1/exercise1.md
+      - file: plasticity/lesson1/exercise2.md
   - caption: Miscellaneous
     chapters:
     - file: credits.md

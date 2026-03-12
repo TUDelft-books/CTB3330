@@ -1,5 +1,8 @@
 # Changelog
 
+## v2025.4.0: 12-3-2026
+- Added [](./plasticity/lesson1/lesson.md)
+
 ## v2025.3.0: 9-3-2026
 - Added solutions to [](./influence_line/lesson2/lesson.md)
 - Added [](./influence_line/lesson4/lesson.md)
