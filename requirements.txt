@@ -5,4 +5,4 @@ git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors #BUMP
 
 sphinx-tudelft-theme
 sphinx-apa-references
-git+https://github.com/TeachBooks/TeachBooks-Questions #BUMP
+teachbooks-questions
