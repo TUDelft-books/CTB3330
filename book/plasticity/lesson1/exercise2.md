@@ -53,8 +53,13 @@ Which cables will yield when the structure collapses?
 ---
 :::
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: blocks
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
 What are the values for the final $F-w$ curve?
 
@@ -64,10 +69,14 @@ What are the values for the final $F-w$ curve?
 :number:
 ```
 
-```{h5p} https://tudelft.h5p.com/content/1292847696126179627/embed
-```
+---
+M[40] What is the value of $w_1$ in $\rm{mm}$?
+M[50] What is the value of $w_2$ in $\rm{mm}$?
+M[5125] What is the value of $F_1$ in $\rm{N}$?
+M[5625] What is the value of $F_2$ in $\rm{N}$?
+---
 
-:::::
+::::
 
 % solution_start
 
