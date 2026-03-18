@@ -1,5 +1,8 @@
 # Changelog
 
+## v2025.5.0: 18-3-2026
+- Added solutions to [](./plasticity/lesson1/exercise2.md)
+
 ## v2025.4.0: 12-3-2026
 - Added [](./plasticity/lesson1/lesson.md)
 

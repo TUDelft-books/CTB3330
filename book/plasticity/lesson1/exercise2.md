@@ -79,8 +79,6 @@ M[5625] What is the value of $F_2$ in $\rm{N}$?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -166,5 +164,3 @@ This gives:
 ```
 
 ::::
-
-% solution_end
