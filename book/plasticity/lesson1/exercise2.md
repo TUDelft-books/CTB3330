@@ -43,6 +43,7 @@ Which cable will yield first?
 :columns: 1 3 3 3
 :class: exercise
 :nocaption:
+:variant: multiple-select
 :showanswer:
 
 Which cables will yield when the structure collapses?
