@@ -47,7 +47,7 @@ Which cable will yield first?
 
 Which cables will yield when the structure collapses?
 ---
-[ ] Cable $\rm{BE}$
+[x] Cable $\rm{BE}$
 [ ] Cable $\rm{EG}$
 [x] Cable $\rm{CH}$
 ---
