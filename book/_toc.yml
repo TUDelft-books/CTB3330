@@ -78,11 +78,10 @@ parts:
       sections:
       - file: plasticity/lesson1/exercise1.md
       - file: plasticity/lesson1/exercise2.md
-# START REMOVE-FROM-RELEASE
     - file: plasticity/lesson2/lesson.md
       sections:
       - file: plasticity/lesson2/exercise1.md
-# END REMOVE-FROM-RELEASE
+      - file: plasticity/lesson2/exercise2.md
   - caption: Miscellaneous
     chapters:
     - file: credits.md

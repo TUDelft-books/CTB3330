@@ -1,27 +1,29 @@
-# Guided exercise 1
+# Guided exercise 2
 
 Given is the following structure:
 
-```{figure-start} ./exercise1_data/constructie2.svg
+```{figure-start} ./exercise2_data/constructie.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_3
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_2
 :number:
 ```
 
 $$
 \begin{align*}
-A_{\rm{trusses}} &= 0.01 \, \rm{m^2} \\
-f_{y,\rm{AD}} &= 235 \, \rm{MPa} \\
-A_{\rm{beam}} &\gg A_{\rm{trusses}} \\
-I_{zz,{\rm{beam}}} &\gg A_{\rm{trusses}} \\
+A &= 100 \, \rm{mm^2} \\
+EI_{zz} &\gg EA \\
+f_{y} &= 500 \, \rm{MPa} \\
 \end{align*}
 $$
+
 Horizontal plastic regime
 
 ```{figure-end}
 ```
 
-For which we're interested in the collapse load.
+Which is the same one as covered in the [previous lesson](../lesson1/exercise2.md).
+
+Now, we're interested in the collapse load.
 
 ::::{question} Opgave
 :type: short-answer
@@ -63,7 +65,7 @@ M[2]
 
 How many potential locations are there for telescope hinges to be placed such that the structure becomes a mechanism?
 ---
-M[2]
+M[3]
 ---
 
 ::::
@@ -78,7 +80,7 @@ M[2]
 
 How many different collapse mechanisms are there for this structure?
 ---
-M[1]
+M[2]
 ---
 
 ::::
@@ -91,27 +93,35 @@ M[1]
 :nocaption:
 :showanswer:
 
-If the displacement of $\rm{F}$ is $\delta w$,
+What is the collapse load in $\rm{N}$?
 ---
-M[0.75] What is the corresponding displacement of $\rm{E}$, expressed as a multiple of $\delta w$?
-M[0.75] What is the corresponding displacement of $\rm{G}$, expressed as a multiple of $\delta w$?
-M[0.6] What is the corresponding elongation of $\rm{CE}$, expressed as a multiple of $\delta w$?
-M[0.6] What is the corresponding elongation of $\rm{DG}$, expressed as a multiple of $\delta w$?
+M[8750] For the mechanism with the highest collapse load?
+M[5625] For the mechanism with the smallest collapse load?
 ---
 
 ::::
 
-::::{question} Opgave
-:type: short-answer
-:variant: blocks
-:admonition:
-:class: exercise
-:nocaption:
-:showanswer:
+% solution_start
 
-What is the collapse load $q$ in $\rm{kN/m}$?
----
-M[88.5425;0.025] 
----
+::::{admonition} Solution
+:class: solution, dropdown
+
+```{figure} ./exercise2_data/mechanism1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_2
+:number:
+```
+
+This collapse mechanism has a collapse load of $8750 \, \rm{N}$.
+
+```{figure} ./exercise2_data/mechanism2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_2
+:number:
+```
+
+This collapse mechanism has a collapse load of $5625 \, \rm{N}$.
 
 ::::
+
+% solution_end

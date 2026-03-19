@@ -14,9 +14,10 @@ E &= 200 \, \rm{GPa}\\
 A &= 100 \, \rm{mm^2} \\
 EI_{zz} &\gg EA \\
 f_{y} &= 500 \, \rm{MPa} \\
-\rm{horizontal} &\, \rm{plastic} \, \rm{regime}
 \end{align*}
 $$
+
+Horizontal plastic regime
 
 ```{figure-end}
 ```
