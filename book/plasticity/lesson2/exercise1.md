@@ -95,8 +95,8 @@ If the displacement of $\rm{F}$ is $\delta w$,
 ---
 M[0.75] What is the corresponding displacement of $\rm{E}$, expressed as a multiple of $\delta w$?
 M[0.75] What is the corresponding displacement of $\rm{G}$, expressed as a multiple of $\delta w$?
-M[0.6] What is the corresponding elongation of $\rm{CE}$, expressed as a multiple of $\delta w$?
-MRP[0.53033;0.025] What is the corresponding elongation of $\rm{DG}$, expressed as a multiple of $\delta w$?
+M[0.6] What is the corresponding elongation of $\rm{DG}$, expressed as a multiple of $\delta w$?
+MRP[0.53033;0.025] What is the corresponding elongation of $\rm{CE}$, expressed as a multiple of $\delta w$?
 ---
 
 ::::
@@ -111,7 +111,7 @@ MRP[0.53033;0.025] What is the corresponding elongation of $\rm{DG}$, expressed 
 
 What is the collapse load $q$ in $\rm{kN/m}$?
 ---
-M[88.5425;0.025] 
+MRP[88.5425;0.025] 
 ---
 
 ::::
