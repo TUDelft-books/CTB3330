@@ -96,7 +96,7 @@ If the displacement of $\rm{F}$ is $\delta w$,
 M[0.75] What is the corresponding displacement of $\rm{E}$, expressed as a multiple of $\delta w$?
 M[0.75] What is the corresponding displacement of $\rm{G}$, expressed as a multiple of $\delta w$?
 M[0.6] What is the corresponding elongation of $\rm{CE}$, expressed as a multiple of $\delta w$?
-MRP[0.75/\sqrt{2};0.025] What is the corresponding elongation of $\rm{DG}$, expressed as a multiple of $\delta w$?
+MRP[0.53033;0.025] What is the corresponding elongation of $\rm{DG}$, expressed as a multiple of $\delta w$?
 ---
 
 ::::
