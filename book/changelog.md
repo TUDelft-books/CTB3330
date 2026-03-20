@@ -1,5 +1,8 @@
 # Changelog
 
+## v2025.7.0: 20-3-2026
+- Added [](./plasticity/lesson3/lesson.md)
+
 ## v2025.6.0. 19-3-2026
 - Added [](./plasticity/lesson2/lesson.md)
 

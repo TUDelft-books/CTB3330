@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export VMN_F.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export VMN_T.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.1364in" height="0.974703in"
 		viewBox="0 0 153.821 70.1786" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
@@ -143,7 +143,7 @@
 			<rect x="0" y="56.0054" width="28.3465" height="14.1732" class="st7"/>
 			<text x="7.57" y="66.69" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>w<tspan dy="-0.279em"
 						class="st9" v:baseFontSize="12">B</tspan></text>		</g>
-		<g id="shape165-75" v:mID="165" v:groupContext="shape" transform="translate(184.745,-11.1353) rotate(45) scale(-1,1)">
+		<g id="shape165-75" v:mID="165" v:groupContext="shape" transform="translate(164.701,-31.1793) rotate(45)">
 			<title>Moment.165</title>
 			<path d="M-0 70.18 A14.1732 14.1732 0 0 1 14.17 56.01 A14.1732 14.1732 0 0 1 26.14 62.58 L26.24 62.93" class="st10"/>
 		</g>
