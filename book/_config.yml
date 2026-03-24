@@ -38,10 +38,6 @@ sphinx:
     git_author_exclude:
       - 'github-actions[bot]'
     git_exclude_commits: []
-    mathjax3_config:
-      loader:
-        load:
-          - "ui/nonlazy"
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
