@@ -3,6 +3,7 @@
 Finally, let's consider another statically indeterminate hinged beam.
 
 ```{figure} ./3sup/structure.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/MOLA
 :number:

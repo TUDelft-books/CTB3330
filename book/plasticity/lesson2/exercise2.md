@@ -3,6 +3,7 @@
 Given is the following structure:
 
 ```{figure-start} ./exercise2_data/constructie.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_2
 :number:
@@ -101,8 +102,6 @@ M[5625] For the mechanism with the smallest collapse load?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Solution
 :class: solution, dropdown
 
@@ -123,5 +122,3 @@ This collapse mechanism has a collapse load of $8750 \, \rm{N}$.
 This collapse mechanism has a collapse load of $5625 \, \rm{N}$.
 
 ::::
-
-% solution_end

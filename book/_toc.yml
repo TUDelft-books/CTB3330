@@ -87,6 +87,10 @@ parts:
       - file: plasticity/lesson3/exercise1.md
       - file: plasticity/lesson3/exercise2.md
       - file: plasticity/lesson3/exercise3.md
+    - file: plasticity/lesson4/lesson.md
+      sections:
+      - file: plasticity/lesson4/exercise1.md
+      - file: plasticity/lesson4/exercise2.md
 # START REMOVE-FROM-RELEASE
 # END REMOVE-FROM-RELEASE
   - caption: Miscellaneous

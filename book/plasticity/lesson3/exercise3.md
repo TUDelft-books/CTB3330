@@ -3,6 +3,7 @@
 Given is the following structure:
 
 ```{figure-start} ./exercise3_data/constructie.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_6
 :number:
@@ -133,8 +134,6 @@ M[1]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -147,8 +146,6 @@ M[1]
 The structure has 4 unknown reactions forces and 3 equilibrium equations, which gives us a degree of statical indeterminacy of 1.
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -166,8 +163,6 @@ MRP[-20/32;0.025] The bending moment at $\rm{C}$
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
@@ -233,8 +228,6 @@ $$
 
 ::::
 
-% solution_end
-
 ::::{question} Opgave
 :variant: multiple-select
 :admonition:
@@ -252,16 +245,12 @@ Which point/points will yield first?
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
 $M_\rm{A}$ is the biggest, so the first moment to reach $M_{\rm{p}}$.
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -278,8 +267,6 @@ M[912]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -291,8 +278,6 @@ F_{y,1} &= 912 \cdot \rm{ kN}
 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -309,8 +294,6 @@ M[9.5]
     
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -320,8 +303,6 @@ $$w_B = -\cfrac{ \cfrac{65}{96} \cdot 912 \cdot 3^3}{3 \cdot 1215000} -\cfrac{ \
 
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -338,8 +319,6 @@ M[0]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -352,8 +331,6 @@ The yielding cross-section is replaced by a plastic hinge, which leads to one le
 ```
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :variant: multiple-select
@@ -371,8 +348,6 @@ Which point/points will yield first?
 ---
 
 ::::
-
-% solution_start
 
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
@@ -424,8 +399,6 @@ So $M_{\rm{B}}$ is the second moment to reach $M_{\rm{p}}$
 
 ::::
 
-% solution_end
-
 
 ::::{question} Opgave
 :type: short-answer
@@ -442,8 +415,6 @@ M[936]
 
 ::::
 
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -455,8 +426,6 @@ F_{y,2} &= 936 \, \rm{ kN}
 $$
 
 ::::
-
-% solution_end
 
 ::::{question} Opgave
 :type: short-answer
@@ -473,9 +442,6 @@ MRP[91/9;0.025]
 
 ::::
 
-
-% solution_start
-
 ::::{admonition} Worked-out solution
 :class: solution, dropdown
 
@@ -484,8 +450,6 @@ Applying forget-me-knots gives:
 
 $$w_B = -\cfrac{741 \cdot 6 ^2}{16 \cdot 121500} + \cfrac{96 \cdot 6 ^3}{48 \cdot EI} - \cfrac{ \cfrac{5}{24} \cdot 936 \cdot 3 \cdot 6 ^2}{16 \cdot 121500} = \cfrac{91}{9000} \approx 0.01011 \, \rm{ m}$$
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -505,4 +469,3 @@ Draw the $F-w_{\rm{B}}$ curve for this structure.
 
 ::::
 
-% https://ans.app/repo_questions/32289101/criteria

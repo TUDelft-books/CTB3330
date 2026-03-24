@@ -3,6 +3,7 @@
 Given is the following structure:
 
 ```{figure} ./exercise_data/structure2.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_2
 :number:

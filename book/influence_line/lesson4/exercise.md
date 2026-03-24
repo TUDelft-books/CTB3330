@@ -19,6 +19,7 @@ We'll use the following components:
 Let's start with the most basic model, a simply supported beam:
 
 ```{figure} ./simply_supported/structure.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/MOLA
 :number:
