@@ -30,6 +30,75 @@ document.addEventListener('DOMContentLoaded', function () {
     var targetImage = aside.querySelector('img');
     var lastSourceRect = null;
     var currentAnimation = null;
+    var typesetRequestId = 0;
+
+    function refreshAsideCloneFromMain() {
+      var freshClone = mainFigure.cloneNode(true);
+      var oldClone = aside.querySelector('figure');
+
+      if (oldClone) {
+        oldClone.replaceWith(freshClone);
+      } else {
+        aside.appendChild(freshClone);
+      }
+
+      targetImage = aside.querySelector('img');
+    }
+
+    function queueAsideTypeset(attempt) {
+      var currentAttempt = typeof attempt === 'number' ? attempt : 0;
+
+      if (!aside.classList.contains('is-visible')) {
+        return;
+      }
+
+      ensureMathVisible();
+
+      if (!window.MathJax || typeof window.MathJax.typesetPromise !== 'function') {
+        if (currentAttempt < 60) {
+          setTimeout(function () {
+            queueAsideTypeset(currentAttempt + 1);
+          }, 100);
+        }
+        return;
+      }
+
+      var requestId = ++typesetRequestId;
+
+      function runTypeset() {
+        if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
+          return;
+        }
+
+        // First typeset the source figure, then clone that final state into the margin.
+        // This avoids cloning a transient mid-render MathJax state on normal refresh.
+        window.MathJax.typesetPromise([mainFigure]).then(function () {
+          if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
+            return;
+          }
+
+          refreshAsideCloneFromMain();
+          ensureMathVisible();
+
+          return window.MathJax.typesetPromise([aside]);
+        }).then(function () {
+          if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
+            return;
+          }
+          ensureMathVisible();
+        }).catch(function () {
+          // Ignore transient MathJax failures during page load races.
+        });
+      }
+
+      if (window.MathJax.startup && window.MathJax.startup.promise) {
+        window.MathJax.startup.promise.then(runTypeset).catch(function () {
+          // Ignore startup timing failures.
+        });
+      } else {
+        runTypeset();
+      }
+    }
 
     function cancelCurrentAnimation() {
       if (currentAnimation) {
@@ -97,6 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showStickyMargin() {
       if (aside.classList.contains('is-visible')) {
+        queueAsideTypeset();
         return;
       }
 
@@ -111,6 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ) {
         ensureMathVisible();
         aside.classList.add('is-visible');
+        queueAsideTypeset();
         return;
       }
 
@@ -121,6 +192,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (targetRect.width === 0 || targetRect.height === 0) {
         ensureMathVisible();
         aside.classList.add('is-visible');
+        queueAsideTypeset();
         return;
       }
 
@@ -129,6 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
       animateFlight(clone, lastSourceRect, targetRect, function () {
         ensureMathVisible();
         aside.classList.add('is-visible');
+        queueAsideTypeset();
       });
     }
 

@@ -108,7 +108,7 @@ M[1185.6]
 :nocaption:
 :showanswer:
 
-For the collapse mechanism with two plastic hinges, if the displacement of $\rm{F}$ is $\delta w$,
+For the collapse mechanism with two plastic hinges, if the displacement of $F$ is $\delta w$,
 ---
 MRP[0.33333;0.025] What is the absolute value for the corresponding rotation of $\rm{AB}$, expressed as a multiple of $\delta w$?
 MRP[0.33333;0.025] What is the absolute value for the corresponding rotation of $\rm{BC}$, expressed as a multiple of $\delta w$?
