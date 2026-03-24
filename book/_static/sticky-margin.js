@@ -29,7 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var sourceImage = mainFigure.querySelector('.sticky-margin') || mainFigure.querySelector('img');
     var targetImage = aside.querySelector('img');
     var lastSourceRect = null;
-    var currentAnimation = null;
+    var currentFlightAnimation = null;
+    var hideTimeoutId = null;
+
+    aside.style.transition = 'opacity 150ms ease-in-out';
 
     function typesetAsideMath() {
       if (!aside.classList.contains('is-visible')) {
@@ -61,10 +64,19 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-    function cancelCurrentAnimation() {
-      if (currentAnimation) {
-        currentAnimation.cancel();
-        currentAnimation = null;
+    function cancelPendingHide() {
+      if (hideTimeoutId) {
+        clearTimeout(hideTimeoutId);
+        hideTimeoutId = null;
+      }
+
+      aside.style.opacity = '1';
+    }
+
+    function cancelCurrentFlight() {
+      if (currentFlightAnimation) {
+        currentFlightAnimation.cancel();
+        currentFlightAnimation = null;
       }
     }
 
@@ -76,12 +88,13 @@ document.addEventListener('DOMContentLoaded', function () {
       clone.style.top = rect.top + 'px';
       clone.style.width = rect.width + 'px';
       clone.style.height = rect.height + 'px';
+      clone.style.boxShadow = 'none';
       document.body.appendChild(clone);
       return clone;
     }
 
     function animateFlight(clone, fromRect, toRect, onComplete) {
-      cancelCurrentAnimation();
+      cancelCurrentFlight();
 
       var animation = clone.animate([
         {
@@ -100,15 +113,15 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       ], {
         duration: 750,
-        easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
+        easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
         fill: 'forwards'
       });
 
-      currentAnimation = animation;
+      currentFlightAnimation = animation;
 
       function finalize() {
         clone.remove();
-        currentAnimation = null;
+        currentFlightAnimation = null;
         onComplete();
       }
 
@@ -127,11 +140,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showStickyMargin() {
       if (aside.classList.contains('is-visible')) {
+        cancelPendingHide();
         typesetAsideMath();
         return;
       }
 
-      cancelCurrentAnimation();
+      cancelPendingHide();
+      cancelCurrentFlight();
+      aside.style.opacity = '1';
 
       if (
         prefersReducedMotion ||
@@ -171,35 +187,30 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      cancelCurrentAnimation();
+      cancelPendingHide();
+      cancelCurrentFlight();
 
       if (prefersReducedMotion || !sourceImage || !targetImage || window.innerWidth < 1200) {
         aside.classList.remove('is-visible');
+        aside.style.opacity = '1';
         return;
       }
 
-      var sourceRect = sourceImage.getBoundingClientRect();
-      var targetRect = targetImage.getBoundingClientRect();
-
-      if (
-        sourceRect.width === 0 ||
-        sourceRect.height === 0 ||
-        targetRect.width === 0 ||
-        targetRect.height === 0
-      ) {
+      aside.style.opacity = '0';
+      hideTimeoutId = setTimeout(function () {
         aside.classList.remove('is-visible');
-        return;
-      }
-
-      var clone = createFlightClone(targetImage, targetRect);
-      aside.classList.remove('is-visible');
-
-      animateFlight(clone, targetRect, sourceRect, function () {});
+        aside.style.opacity = '1';
+        hideTimeoutId = null;
+      }, 150);
     }
 
-    rememberSourceRect();
-    window.addEventListener('scroll', rememberSourceRect, { passive: true });
+    window.addEventListener('scroll', function() {
+      rememberSourceRect();
+    }, { passive: true });
     window.addEventListener('resize', rememberSourceRect);
+
+    var headerEl = document.querySelector('.bd-header-article') || document.querySelector('header');
+    var headerHeight = headerEl ? headerEl.offsetHeight : 0;
 
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -211,14 +222,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         if (entry.isIntersecting) {
+          // Figure came back into view - hide margin
           hideStickyMargin();
-        } else if (entry.boundingClientRect.bottom < 0) {
+        } else if (entry.boundingClientRect.bottom < headerHeight) {
+          // Figure scrolled above header - show margin
           showStickyMargin();
-        } else {
-          hideStickyMargin();
         }
       });
-    }, { threshold: 0 });
+    }, { threshold: 0, rootMargin: '-' + headerHeight + 'px 0px 0px 0px' });
 
     observer.observe(mainFigure);
 
@@ -233,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
       rememberSourceRect();
       var rect = mainFigure.getBoundingClientRect();
       
-      if (window.innerWidth >= 1200 && rect.bottom < 0) {
+      if (window.innerWidth >= 1200 && rect.bottom < headerHeight) {
         showStickyMargin();
       } else {
         hideStickyMargin();
