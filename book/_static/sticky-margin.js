@@ -30,11 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var targetImage = aside.querySelector('img');
     var lastSourceRect = null;
     var currentAnimation = null;
-    var typesetRequestId = 0;
 
-    function queueAsideTypeset(attempt) {
-      var currentAttempt = typeof attempt === 'number' ? attempt : 0;
-
+    function typesetAsideMath() {
       if (!aside.classList.contains('is-visible')) {
         return;
       }
@@ -42,37 +39,25 @@ document.addEventListener('DOMContentLoaded', function () {
       ensureMathVisible();
 
       if (!window.MathJax || typeof window.MathJax.typesetPromise !== 'function') {
-        if (currentAttempt < 20) {
-          setTimeout(function () {
-            queueAsideTypeset(currentAttempt + 1);
-          }, 100);
-        }
         return;
       }
 
-      var requestId = ++typesetRequestId;
-
       function runTypeset() {
-        if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
+        if (!aside.classList.contains('is-visible')) {
           return;
         }
 
         window.MathJax.typesetPromise([aside]).then(function () {
-          if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
-            return;
-          }
           ensureMathVisible();
         }).catch(function () {
-          // Ignore transient MathJax failures during page load races.
+          // Ignore transient MathJax failures.
         });
       }
 
       if (window.MathJax.startup && window.MathJax.startup.promise) {
-        window.MathJax.startup.promise.then(runTypeset).catch(function () {
-          // Ignore startup timing failures.
-        });
+        window.MathJax.startup.promise.then(runTypeset).catch(function () {});
       } else {
-        runTypeset();
+        requestAnimationFrame(runTypeset);
       }
     }
 
@@ -142,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showStickyMargin() {
       if (aside.classList.contains('is-visible')) {
-        queueAsideTypeset();
+        typesetAsideMath();
         return;
       }
 
@@ -157,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ) {
         ensureMathVisible();
         aside.classList.add('is-visible');
-        queueAsideTypeset();
+        typesetAsideMath();
         return;
       }
 
@@ -168,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (targetRect.width === 0 || targetRect.height === 0) {
         ensureMathVisible();
         aside.classList.add('is-visible');
-        queueAsideTypeset();
+        typesetAsideMath();
         return;
       }
 
@@ -177,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
       animateFlight(clone, lastSourceRect, targetRect, function () {
         ensureMathVisible();
         aside.classList.add('is-visible');
-        queueAsideTypeset();
+        typesetAsideMath();
       });
     }
 
@@ -236,6 +221,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { threshold: 0 });
 
     observer.observe(mainFigure);
+
+    window.addEventListener('load', function () {
+      if (aside.classList.contains('is-visible')) {
+        typesetAsideMath();
+      }
+    });
 
     // Manually trigger visibility check on page load for current scroll position
     requestAnimationFrame(function() {
