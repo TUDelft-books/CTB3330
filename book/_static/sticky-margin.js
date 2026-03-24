@@ -32,19 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var currentAnimation = null;
     var typesetRequestId = 0;
 
-    function refreshAsideCloneFromMain() {
-      var freshClone = mainFigure.cloneNode(true);
-      var oldClone = aside.querySelector('figure');
-
-      if (oldClone) {
-        oldClone.replaceWith(freshClone);
-      } else {
-        aside.appendChild(freshClone);
-      }
-
-      targetImage = aside.querySelector('img');
-    }
-
     function queueAsideTypeset(attempt) {
       var currentAttempt = typeof attempt === 'number' ? attempt : 0;
 
@@ -55,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ensureMathVisible();
 
       if (!window.MathJax || typeof window.MathJax.typesetPromise !== 'function') {
-        if (currentAttempt < 60) {
+        if (currentAttempt < 20) {
           setTimeout(function () {
             queueAsideTypeset(currentAttempt + 1);
           }, 100);
@@ -70,18 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
           return;
         }
 
-        // First typeset the source figure, then clone that final state into the margin.
-        // This avoids cloning a transient mid-render MathJax state on normal refresh.
-        window.MathJax.typesetPromise([mainFigure]).then(function () {
-          if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
-            return;
-          }
-
-          refreshAsideCloneFromMain();
-          ensureMathVisible();
-
-          return window.MathJax.typesetPromise([aside]);
-        }).then(function () {
+        window.MathJax.typesetPromise([aside]).then(function () {
           if (requestId !== typesetRequestId || !aside.classList.contains('is-visible')) {
             return;
           }
