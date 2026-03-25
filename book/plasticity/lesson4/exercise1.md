@@ -74,10 +74,24 @@ M[\infty]
 :nocaption:
 :showanswer:
 
+If one plastic hinge is in $\rm{D}$, what is the location of the other plastic hinge in $\rm{m}$ from the left?
+---
+MRP[2.66667;0.025] What is location of the other plastic hinge in $\rm{m}$ from the left?
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: blocks
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
 If the rotation of rigid rotating element on the right is $\delta \varphi$,
 ---
 M[3] What is the absolute value of the corresponding displacement of $\rm{C}$, expressed as a multiple of $\delta \varphi$?
-MRP[2.66667;0.025] What is location of the other plastic hinge in $\rm{m}$ from the left?
 MRP[5.33333;0.025] What is the absolute value of the corresponding displacement of the other plastic hinge, expressed as a multiple of $\delta \varphi$?
 M[2] What is the absolute value of the rotation of the other rigid rotating element, expressed as a multiple of $\delta \varphi$?
 ---
