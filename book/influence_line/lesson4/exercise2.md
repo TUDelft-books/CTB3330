@@ -3,7 +3,7 @@
 Let's increase complexity a bit, by looking at a statically determinate hinged beam:
 
 ```{figure} ./hinged_SD/structure.svg
-:class: sticky-margin
+:sticky-margin:
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/MOLA
 :number:

@@ -3,7 +3,7 @@
 Given is the following structure:
 
 ```{figure-start} ./exercise3_data/constructie3.svg
-:class: sticky-margin
+:sticky-margin:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_7
 :number:

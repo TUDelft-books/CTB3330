@@ -3,7 +3,7 @@
 Let's consider a statically indeterminate beam with an infinitive stiff part:
 
 ```{figure} ./SO/structure.svg
-:class: sticky-margin
+:sticky-margin:
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/MOLA
 :number:
