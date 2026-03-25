@@ -1,9 +1,8 @@
 # first list the packages you wish to download from PyPI
 teachbooks
 
-git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors #BUMPBUMPBUMPBUMPBUMP
+git+https://github.com/TeachBooks/TeachBooks-Favourites@horizontal_scroll #all_authors #BUMPBUMPBUMPBUMPBUMP
 
 sphinx-tudelft-theme
 sphinx-apa-references
 teachbooks-questions
-git+https://github.com/TeachBooks/Sphinx-Sticky-Margin@first-steps
