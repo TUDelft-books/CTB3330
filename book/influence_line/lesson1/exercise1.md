@@ -4,7 +4,7 @@ Given is the following structure:
 
 ```{figure} ./exercise1_data/inf_line_1.svg
 ---
-sticky-margin:
+class: sticky-margin
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/inf_line_1
 number:

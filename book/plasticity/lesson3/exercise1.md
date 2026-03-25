@@ -3,7 +3,7 @@
 Given is the following cross-section:
 
 ```{figure-start} ./exercise1_data/cirkel.svg
-:sticky-margin:
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/plasticity_5
 :number:
