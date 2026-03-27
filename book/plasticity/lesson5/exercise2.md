@@ -64,7 +64,7 @@ M[2]
 
 How many potential locations are there for hinges to be placed such that the structure becomes a mechanism?
 ---
-M[\infty]
+MR[x >= 3]
 ---
 
 ::::
@@ -79,7 +79,7 @@ M[\infty]
 
 How many different collapse mechanisms are there for this structure?
 ---
-M[\infty]
+MR[x >= 3]
 ---
 
 ::::
