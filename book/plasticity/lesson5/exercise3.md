@@ -28,7 +28,7 @@ For which we're interested in the collapse load.
 :nocaption:
 :showanswer:
 
-What is the degree of staticaly indeterminacy of this structure?
+What is the degree of statical indeterminacy of this structure?
 ---
 M[2]
 ---
@@ -44,7 +44,7 @@ M[2]
 :nocaption:
 :showanswer:
 
-How many hinges are required to make this structure a mechanism?
+How many plastic hinges are required to make this structure a mechanism?
 ---
 M[3]
 ---
@@ -59,7 +59,7 @@ M[3]
 :nocaption:
 :showanswer:
 
-How many potential locations are there for hinges to be placed such that the structure becomes a mechanism?
+How many potential locations are there for plastic hinges to be placed such that the structure becomes a mechanism?
 ---
 M[4]
 ---
