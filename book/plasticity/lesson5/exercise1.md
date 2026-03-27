@@ -50,6 +50,8 @@ M[3]
 How many hinges are required to make this structure a mechanism?
 ---
 MR[3 <= x <= 4]
+= With 3 hinges, a local mechanisms can occur. So 3 or 4 hinges are required.
+> Incorrect
 ---
 
 ::::
