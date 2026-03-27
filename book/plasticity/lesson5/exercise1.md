@@ -191,6 +191,7 @@ M[540]
 What is the absolute value for the bending moment during collapse at $\rm{B}$ in $\rm{kNm}$?
 ---
 M[108]
+> Try to find the bending moment and shear force in $\rm{E}$ first based on what you find from the bending moment diagram, after which global equilibrium lead to reaction forces in $\rm{A}$ which can be used to evaluate the bending moment in $\rm{B}$.
 ---
 
 ::::
