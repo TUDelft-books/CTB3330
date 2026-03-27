@@ -65,6 +65,7 @@ M[2]
 How many potential locations are there for hinges to be placed such that the structure becomes a mechanism?
 ---
 MR[x >= 3]
+= Although there are 3 potential locations, later you'll find that $\rm{CD}$ is fully yielding, which would yield to infinite locations
 ---
 
 ::::
@@ -80,6 +81,7 @@ MR[x >= 3]
 How many different collapse mechanisms are there for this structure?
 ---
 MR[x >= 3]
+= Although there are 3 potential locations, later you'll find that $\rm{CD}$ is fully yielding, which would yield to infinite mechanisms
 ---
 
 ::::
