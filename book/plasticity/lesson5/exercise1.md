@@ -107,7 +107,7 @@ M[120]
 :nocaption:
 :showanswer:
 
-What is the collapse load $F$ in $\rm{kN}$ for the sway collapse mechanism with four lastic hinges?
+What is the collapse load $F$ in $\rm{kN}$ for the sway collapse mechanism with four plastic hinges?
 ---
 M[180]
 ---
@@ -126,8 +126,8 @@ For the collapse mechanism with plastic hinges at $\rm{A}$, $\rm{C}$, $\rm{D}$ a
 ---
 M[1] What is the absolute value for the corresponding rotation of $\rm{CD}$, expressed as a multiple of $\delta \varphi$?
 M[1] What is the absolute value for the corresponding rotation of $\rm{DE}$, expressed as a multiple of $\delta \varphi$?
-M[4] What is the absolute value for the corresponding displacement of $F$, expressed as a multiple of $\delta \varphi$?
-M[3] What is the absolute value for the corresponding displacement of $2F$, expressed as a multiple of $\delta \varphi$?
+M[4] What is the absolute value for the corresponding displacement in the direction of $F$, expressed as a multiple of $\delta \varphi$?
+M[3] What is the absolute value for the corresponding displacement in the direction of $2F$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
@@ -159,8 +159,8 @@ For the collapse mechanism with plastic hinges at $\rm{A}$, $\rm{B}$, $\rm{C}$ a
 ---
 M[1] What is the absolute value for the corresponding rotation of $\rm{BC}$, expressed as a multiple of $\delta \varphi$?
 M[1] What is the absolute value for the corresponding rotation of $\rm{CE}$, expressed as a multiple of $\delta \varphi$?
-M[4] What is the absolute value for the corresponding displacement of $F$, expressed as a multiple of $\delta \varphi$?
-M[3] What is the absolute value for the corresponding displacement of $2F$, expressed as a multiple of $\delta \varphi$?
+M[4] What is the absolute value for the corresponding displacement in the direction of $F$, expressed as a multiple of $\delta \varphi$?
+M[3] What is the absolute value for the corresponding displacement in the direction  of $2F$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
