@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export constructie3.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export constructie.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.35333in" height="2.90149in"
 		viewBox="0 0 241.44 208.907" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
@@ -108,7 +108,7 @@
 		</g>
 		<g id="shape1140-29" v:mID="1140" v:groupContext="shape" transform="translate(-194.614,166.013) rotate(-90)">
 			<title>Ligger, 2 pt.14</title>
-			<path d="M0 208.91 L113.39 208.91" class="st4"/>
+			<path d="M0 208.91 L113.39 208.91" class="st1"/>
 		</g>
 		<g id="shape1141-32" v:mID="1141" v:groupContext="shape" transform="translate(-24.4045,166.013) rotate(-90)">
 			<title>Ligger, 2 pt.15</title>
@@ -260,12 +260,12 @@
 						class="st18">= 100 kNm</tspan></text>		</g>
 		<g id="shape1192-134" v:mID="1192" v:groupContext="shape" transform="translate(14.2932,-92.6739)">
 			<title>Blad.1192</title>
-			<desc>Mp = 100 kNm</desc>
+			<desc>Mp = 200 kNm</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="42.5197" cy="201.821" width="85.04" height="14.1732"/>
 			<rect x="0" y="194.734" width="85.0394" height="14.1732" class="st14"/>
 			<text x="6.69" y="205.42" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st17" v:baseFontSize="12">p</tspan><tspan dy="0.181em" class="st18"> </tspan><tspan class="st18">= 100 kNm</tspan></text>		</g>
+						class="st17" v:baseFontSize="12">p</tspan><tspan dy="0.181em" class="st18"> </tspan><tspan class="st18">= 200 kNm</tspan></text>		</g>
 		<g id="shape1193-140" v:mID="1193" v:groupContext="shape" transform="translate(99.3326,-92.501)">
 			<title>Blad.1193</title>
 			<desc>Mp = 100 kNm</desc>
