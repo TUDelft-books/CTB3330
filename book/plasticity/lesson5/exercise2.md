@@ -64,7 +64,9 @@ M[2]
 
 How many potential locations are there for hinges to be placed such that the structure becomes a mechanism?
 ---
-M[\infty]
+MR[x >= 3]
+= Although there are 3 potential locations, later you'll find that $\rm{CD}$ is fully yielding, which would yield to infinite locations
+> Incorrect
 ---
 
 ::::
@@ -79,7 +81,9 @@ M[\infty]
 
 How many different collapse mechanisms are there for this structure?
 ---
-M[\infty]
+MR[x >= 3]
+= Although there are 3 potential locations, later you'll find that $\rm{CD}$ is fully yielding, which would yield to infinite mechanisms
+> Incorrect
 ---
 
 ::::
@@ -92,10 +96,10 @@ M[\infty]
 :nocaption:
 :showanswer:
 
-For the collapse mechanism with plastic hinges at $\rm{C}$ and $\rm{E}$, if the rotation of $\rm{BE}$ is $\delta \varphi$,
+For the collapse mechanism with plastic hinges at $\rm{B}$ and $\rm{D}$, if the rotation of $\rm{AB}$ is $\delta \varphi$,
 ---
-M[0.5] What is the absolute value for the corresponding rotation of $\rm{EDC}$, expressed as a multiple of $\delta \varphi$?
-M[1] What is the absolute value for the corresponding rotation of $\rm{AC}$, expressed as a multiple of $\delta \varphi$?
+M[0.5] What is the absolute value for the corresponding rotation of $\rm{BCD}$, expressed as a multiple of $\delta \varphi$?
+M[1] What is the absolute value for the corresponding rotation of $\rm{DE}$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
@@ -108,7 +112,7 @@ M[1] What is the absolute value for the corresponding rotation of $\rm{AC}$, exp
 :nocaption:
 :showanswer:
 
-What is the collapse load $F$ in $\rm{kN}$ for the collapse mechanism with plastic hinges at $\rm{C}$ and $\rm{E}$
+What is the collapse load $F$ in $\rm{kN}$ for the collapse mechanism with plastic hinges at $\rm{B}$ and $\rm{C}$
 ---
 M[120]
 ---
@@ -123,10 +127,10 @@ M[120]
 :nocaption:
 :showanswer:
 
-For the collapse mechanism with plastic hinges at $\rm{C}$ and $\rm{D}$, if the rotation of $\rm{BED}$ is $\delta \varphi$,
+For the collapse mechanism with plastic hinges at $\rm{C}$ and $\rm{D}$, if the rotation of $\rm{ABC}$ is $\delta \varphi$,
 ---
 M[0.5] What is the absolute value for the corresponding rotation of $\rm{CD}$, expressed as a multiple of $\delta \varphi$?
-M[2] What is the absolute value for the corresponding rotation of $\rm{AC}$, expressed as a multiple of $\delta \varphi$?
+M[2] What is the absolute value for the corresponding rotation of $\rm{DE}$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
@@ -154,10 +158,10 @@ M[90]
 :nocaption:
 :showanswer:
 
-For the collapse mechanism with plastic hinges at $\rm{D}$ and $\rm{E}$, if the rotation of $\rm{BE}$ is $\delta \varphi$,
+For the collapse mechanism with plastic hinges at $\rm{B}$ and $\rm{C}$, if the rotation of $\rm{AB}$ is $\delta \varphi$,
 ---
-M[0.25] What is the absolute value for the corresponding rotation of $\rm{ED}$, expressed as a multiple of $\delta \varphi$?
-M[0.5] What is the absolute value for the corresponding rotation of $\rm{DA}$, expressed as a multiple of $\delta \varphi$?
+M[0.25] What is the absolute value for the corresponding rotation of $\rm{BC}$, expressed as a multiple of $\delta \varphi$?
+M[0.5] What is the absolute value for the corresponding rotation of $\rm{CDE}$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::

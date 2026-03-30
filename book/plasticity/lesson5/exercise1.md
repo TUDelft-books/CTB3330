@@ -50,6 +50,8 @@ M[3]
 How many hinges are required to make this structure a mechanism?
 ---
 MR[3 <= x <= 4]
+= With 3 hinges, a local mechanisms can occur. So 3 or 4 hinges are required.
+> Incorrect
 ---
 
 ::::
@@ -107,7 +109,7 @@ M[120]
 :nocaption:
 :showanswer:
 
-What is the collapse load $F$ in $\rm{kN}$ for the sway collapse mechanism with four lastic hinges?
+What is the collapse load $F$ in $\rm{kN}$ for the sway collapse mechanism with four plastic hinges?
 ---
 M[180]
 ---
@@ -126,8 +128,8 @@ For the collapse mechanism with plastic hinges at $\rm{A}$, $\rm{C}$, $\rm{D}$ a
 ---
 M[1] What is the absolute value for the corresponding rotation of $\rm{CD}$, expressed as a multiple of $\delta \varphi$?
 M[1] What is the absolute value for the corresponding rotation of $\rm{DE}$, expressed as a multiple of $\delta \varphi$?
-M[4] What is the absolute value for the corresponding displacement of $F$, expressed as a multiple of $\delta \varphi$?
-M[3] What is the absolute value for the corresponding displacement of $2F$, expressed as a multiple of $\delta \varphi$?
+M[4] What is the absolute value for the corresponding displacement in the direction of $F$, expressed as a multiple of $\delta \varphi$?
+M[3] What is the absolute value for the corresponding displacement in the direction of $2F$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
@@ -159,8 +161,8 @@ For the collapse mechanism with plastic hinges at $\rm{A}$, $\rm{B}$, $\rm{C}$ a
 ---
 M[1] What is the absolute value for the corresponding rotation of $\rm{BC}$, expressed as a multiple of $\delta \varphi$?
 M[1] What is the absolute value for the corresponding rotation of $\rm{CE}$, expressed as a multiple of $\delta \varphi$?
-M[4] What is the absolute value for the corresponding displacement of $F$, expressed as a multiple of $\delta \varphi$?
-M[3] What is the absolute value for the corresponding displacement of $2F$, expressed as a multiple of $\delta \varphi$?
+M[4] What is the absolute value for the corresponding displacement in the direction of $F$, expressed as a multiple of $\delta \varphi$?
+M[3] What is the absolute value for the corresponding displacement in the direction  of $2F$, expressed as a multiple of $\delta \varphi$?
 ---
 
 ::::
@@ -191,6 +193,7 @@ M[540]
 What is the absolute value for the bending moment during collapse at $\rm{B}$ in $\rm{kNm}$?
 ---
 M[108]
+> Try to find the bending moment and shear force in $\rm{E}$ first based on what you find from the bending moment diagram, after which global equilibrium lead to reaction forces in $\rm{A}$ which can be used to evaluate the bending moment in $\rm{B}$.
 ---
 
 ::::

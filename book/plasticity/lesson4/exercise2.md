@@ -142,7 +142,7 @@ M[936]
 
 What is the absolute value for the bending moment in $\rm{C}$ in $\rm{kNm}$ for the collapse mechanism with two plastic hinges?
 ---
-M[390]
+M[585]
 ---
 
 ::::
