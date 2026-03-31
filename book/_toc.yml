@@ -66,6 +66,7 @@ parts:
       - file: influence_line/lesson4/exercise2.md
       - file: influence_line/lesson4/exercise3.md
       - file: influence_line/lesson4/exercise4.md
+    - file: influence_line/exam/2026_04_15.md
   - caption: Plasticity
     chapters:
     - file: plasticity/plasticity1.ipynb
@@ -96,6 +97,7 @@ parts:
       - file: plasticity/lesson5/exercise1.md
       - file: plasticity/lesson5/exercise2.md
       - file: plasticity/lesson5/exercise3.md
+    - file: plasticity/exam/2026_04_15.md
 # START REMOVE-FROM-RELEASE
 # END REMOVE-FROM-RELEASE
   - caption: Miscellaneous
