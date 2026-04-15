@@ -1,5 +1,9 @@
 # Changelog
 
+## 2025.10.0: 15-4-2026
+- Added [](./influence_line/exam/2026_04_15.md)
+- Added [](./plasticity/exam/2026_04_15.md)
+
 ## v2025.9.0: 24-3-2026
 - Added [](./plasticity/lesson5/lesson.md)
 
