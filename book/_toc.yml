@@ -67,6 +67,7 @@ parts:
       - file: influence_line/lesson4/exercise3.md
       - file: influence_line/lesson4/exercise4.md
     - file: influence_line/exam/2026_04_15.md
+    - file: influence_line/exam/2026_06_17.md
   - caption: Plasticity
     chapters:
     - file: plasticity/plasticity1.ipynb

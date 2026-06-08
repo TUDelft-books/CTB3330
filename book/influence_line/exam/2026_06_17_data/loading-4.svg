@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export loading-4.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.40543in" height="0.997514in"
+		viewBox="0 0 461.191 71.821" xml:space="preserve" color-interpolation-filters="sRGB" class="st16">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#00cc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.5}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st6 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:#000000;font-family:Times New Roman;font-size:1.00001em;font-style:italic}
+		.st9 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
+		.st10 {font-size:1em;font-style:normal}
+		.st11 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st12 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st13 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st14 {marker-end:url(#mrkr5-95);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st15 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st16 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-95" class="st15" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="-3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group13894-1" transform="translate(71.0519,-29.1814)" v:mID="13894" v:groupContext="group">
+			<title>Rol.13894</title>
+			<g id="group13895-2" transform="translate(0.261477,-2.83465)" v:mID="13895" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape13896-3" v:mID="13896" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.13896</title>
+					<path d="M0 71.82 L13.99 71.82 L6.99 60.48 L0 71.82 Z" class="st1"/>
+				</g>
+				<g id="shape13897-5" v:mID="13897" v:groupContext="shape" transform="translate(2.79729,143.642) rotate(180)">
+					<title>Blad.13897</title>
+					<path d="M0 71.82 L2.8 71.82" class="st2"/>
+				</g>
+				<g id="shape13898-8" v:mID="13898" v:groupContext="shape" transform="translate(16.7838,-1.42109E-14)">
+					<title>Blad.13898</title>
+					<path d="M0 71.82 L2.8 71.82" class="st2"/>
+				</g>
+			</g>
+			<g id="shape13899-11" v:mID="13899" v:groupContext="shape">
+				<title>Blad.13899</title>
+				<path d="M0 71.82 L19.84 71.82" class="st2"/>
+			</g>
+		</g>
+		<g id="group13900-14" transform="translate(184.438,-29.1814)" v:mID="13900" v:groupContext="group">
+			<title>Rol.13900</title>
+			<g id="group13901-15" transform="translate(0.261477,-2.83465)" v:mID="13901" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape13902-16" v:mID="13902" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.13902</title>
+					<path d="M0 71.82 L13.99 71.82 L6.99 60.48 L0 71.82 Z" class="st1"/>
+				</g>
+				<g id="shape13903-18" v:mID="13903" v:groupContext="shape" transform="translate(2.79729,143.642) rotate(180)">
+					<title>Blad.13903</title>
+					<path d="M0 71.82 L2.8 71.82" class="st2"/>
+				</g>
+				<g id="shape13904-21" v:mID="13904" v:groupContext="shape" transform="translate(16.7838,-1.42109E-14)">
+					<title>Blad.13904</title>
+					<path d="M0 71.82 L2.8 71.82" class="st2"/>
+				</g>
+			</g>
+			<g id="shape13905-24" v:mID="13905" v:groupContext="shape">
+				<title>Blad.13905</title>
+				<path d="M0 71.82 L19.84 71.82" class="st2"/>
+			</g>
+		</g>
+		<g id="shape13906-27" v:mID="13906" v:groupContext="shape" transform="translate(194.359,-43.3546)">
+			<title>Ligger, 2 pt.13906</title>
+			<path d="M0 71.82 L56.69 71.82" class="st3"/>
+		</g>
+		<g id="shape13907-30" v:mID="13907" v:groupContext="shape" transform="translate(24.2803,-43.3546)">
+			<title>Ligger, 2 pt.13907</title>
+			<path d="M0 71.82 L425.2 71.82" class="st4"/>
+		</g>
+		<g id="group13908-33" transform="translate(460.816,86.1143) rotate(180)" v:mID="13908" v:groupContext="group">
+			<title>Inklemming.13908</title>
+			<g id="shape13909-34" v:mID="13909" v:groupContext="shape" transform="translate(83.1596,43.4746) rotate(90)">
+				<title>Blad.13909</title>
+				<path d="M0 71.82 L28.35 71.82" class="st5"/>
+			</g>
+			<g id="shape13910-37" v:mID="13910" v:groupContext="shape" transform="translate(59.2891,-7.31056) rotate(45)">
+				<title>Blad.13910</title>
+				<path d="M0 71.82 L4.01 71.82" class="st2"/>
+			</g>
+			<g id="shape13911-40" v:mID="13911" v:groupContext="shape" transform="translate(56.4544,-7.31056) rotate(45)">
+				<title>Blad.13911</title>
+				<path d="M0 71.82 L8.02 71.82" class="st2"/>
+			</g>
+			<g id="shape13912-43" v:mID="13912" v:groupContext="shape" transform="translate(53.6198,-7.31056) rotate(45)">
+				<title>Blad.13912</title>
+				<path d="M0 71.82 L12.03 71.82" class="st2"/>
+			</g>
+			<g id="shape13913-46" v:mID="13913" v:groupContext="shape" transform="translate(50.7851,-7.31056) rotate(45)">
+				<title>Blad.13913</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13914-49" v:mID="13914" v:groupContext="shape" transform="translate(50.7851,-4.47592) rotate(45)">
+				<title>Blad.13914</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13915-52" v:mID="13915" v:groupContext="shape" transform="translate(50.7851,-1.64127) rotate(45)">
+				<title>Blad.13915</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13916-55" v:mID="13916" v:groupContext="shape" transform="translate(50.7851,1.19338) rotate(45)">
+				<title>Blad.13916</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13917-58" v:mID="13917" v:groupContext="shape" transform="translate(50.7851,4.02802) rotate(45)">
+				<title>Blad.13917</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13918-61" v:mID="13918" v:groupContext="shape" transform="translate(50.7851,6.86267) rotate(45)">
+				<title>Blad.13918</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13919-64" v:mID="13919" v:groupContext="shape" transform="translate(50.7851,9.69731) rotate(45)">
+				<title>Blad.13919</title>
+				<path d="M0 71.82 L16.04 71.82" class="st2"/>
+			</g>
+			<g id="shape13920-67" v:mID="13920" v:groupContext="shape" transform="translate(50.7851,12.532) rotate(45)">
+				<title>Blad.13920</title>
+				<path d="M0 71.82 L12.03 71.82" class="st2"/>
+			</g>
+			<g id="shape13921-70" v:mID="13921" v:groupContext="shape" transform="translate(50.7851,15.3666) rotate(45)">
+				<title>Blad.13921</title>
+				<path d="M0 71.82 L8.02 71.82" class="st2"/>
+			</g>
+			<g id="shape13922-73" v:mID="13922" v:groupContext="shape" transform="translate(50.7851,18.2013) rotate(45)">
+				<title>Blad.13922</title>
+				<path d="M0 71.82 L4.01 71.82" class="st2"/>
+			</g>
+		</g>
+		<g id="shape13923-76" v:mID="13923" v:groupContext="shape" transform="translate(362.312,-41.2286)">
+			<title>Scharnier.13923</title>
+			<ellipse cx="2.12598" cy="69.6951" rx="2.12598" ry="2.12598" class="st6"/>
+		</g>
+		<g id="shape13924-78" v:mID="13924" v:groupContext="shape" transform="translate(59.7133,-0.83492)">
+			<title>Blad.13924</title>
+			<desc>φA = ?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="64.7344" width="42.52" height="14.1732"/>
+			<rect x="0" y="57.6478" width="42.5197" height="14.1732" class="st7"/>
+			<text x="6.08" y="68.34" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>φ<tspan dy="-0.279em"
+						class="st9" v:baseFontSize="12">A</tspan><tspan dy="0.181em" class="st10"> </tspan><tspan class="st10">= ?</tspan></text>		</g>
+		<g id="shape13925-84" v:mID="13925" v:groupContext="shape" transform="translate(11.5816,56.8129) rotate(-90)">
+			<title>Blad.13925</title>
+			<path d="M0 69.39 C3.16 67.6 3.91 69.09 5.31 70.1 C8.54 72.43 15.28 72.3 17.01 70.38 C18.23 69.02 16.94 66.76 15.94 66.7
+						 C15.04 66.64 14.38 68.41 15.59 69.53 C17.65 71.44 25.12 71.45 28.35 69.39" class="st11"/>
+		</g>
+		<g id="shape13930-87" v:mID="13930" v:groupContext="shape" transform="translate(3.02041,-57.5278)">
+			<title>Punt A.13930</title>
+			<desc>1 kNm</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="64.7344" width="42.52" height="14.1732"/>
+			<rect x="0" y="57.6478" width="42.5197" height="14.1732" class="st12"/>
+			<text x="4.76" y="68.33" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1 kNm</text>		</g>
+		<g id="shape13931-90" v:mID="13931" v:groupContext="shape" transform="translate(38.4535,-43.3546) scale(-1,1)">
+			<title>Moment.13931</title>
+			<path d="M-0 71.82 A14.1732 14.1732 0 0 1 14.17 57.65 A14.1732 14.1732 0 0 1 26.14 64.23 L26.24 64.57" class="st14"/>
+		</g>
+	</g>
+</svg>
