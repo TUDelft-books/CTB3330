@@ -1,5 +1,66 @@
-/* Original behavior: apply center-grid on wrapping sd-container-fluid. */
 .sd-container-fluid.center-grid .sd-row {
   justify-content: center;  /* center items horizontally */
   align-items: center;      /* center items vertically */
+}
+
+/* Keep figure text no wider than its image inside center-grid layouts. */
+.sd-container-fluid.center-grid figure.align-center {
+  display: table;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sd-container-fluid.center-grid figure.align-center > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.sd-container-fluid.center-grid figure.align-center > p,
+.sd-container-fluid.center-grid figure.align-center > ul,
+.sd-container-fluid.center-grid figure.align-center > ol {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  margin-top: 0.5rem;
+}
+
+.sd-container-fluid.center-grid figure.align-center > ul,
+.sd-container-fluid.center-grid figure.align-center > ol {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.sd-container-fluid.center-grid figure.align-center > ul > li > p,
+.sd-container-fluid.center-grid figure.align-center > ol > li > p {
+  display: inline;
+  margin: 0;
+}
+
+/* Sidebar-only bullet fix for sticky-margin figures in the secondary sidebar. */
+#pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ul,
+#pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ul > li > p,
+#pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ol > li > p {
+  display: inline;
+  margin: 0;
+}
+
+/* Global fix: center list blocks inside centered figures (outside center-grid). */
+figure.align-center > ul,
+figure.align-center > ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+figure.align-center > ul > li > p,
+figure.align-center > ol > li > p {
+  display: inline;
+  margin: 0;
 }
